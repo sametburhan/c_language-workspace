@@ -1,0 +1,26 @@
+//ders3
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	/*
+	int second,minute,hour;
+	scanf("%d %d %d", &second, &minute, &hour);//virgüller önemli
+
+	int hours_to_second = hour*3600;
+	int minutes_to_second = minute*60;
+	int total_seconds = hours_to_second+minutes_to_second+second;
+	printf("toplam %d saniye", total_seconds);
+	------------------------------------------------------------------------------------------
+	char ch,ch2; //char veri tipi 1 bitlik karakterden oluşur; a, b, c, birer karakterdir
+	scanf("%c %c",&ch,&ch2);//kullanıcıdan char verisi çekebilmek içimn %c kodu kullanılır
+	printf("%d\n",ch-'A'+1);//ch değişkenine kullanıcı A değeri atar ise kod bloğu A dan A yı çıkaracak ve
+	//daha sonra 1 int değeri ekleyecektir böylece ekrana 1 çıktısı verilir
+	------------------------------------------------------------------------------------------*/
+	char ch;
+	scanf("%c", &ch);
+
+	printf("%c", ch+('A'-'a'));
+
+	return EXIT_SUCCESS;
+}

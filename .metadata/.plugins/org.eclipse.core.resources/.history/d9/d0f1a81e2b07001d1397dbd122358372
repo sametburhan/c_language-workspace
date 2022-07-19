@@ -1,0 +1,9 @@
+//ders 1
+#include <stdio.h>//temel c kodları için çağırılması gereken kütüphaneler
+#include <stdlib.h>
+
+int main(void) {
+	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+
+	return 0;//main bloğunun bitiş kodu
+}

@@ -1,0 +1,15 @@
+//ders 1
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	int i = 0;
+	printf("Hello World!\n");
+	i+=2;
+	printf("1) i = %d \n",i);
+	i*=3;
+	printf("2) i = %d \n",i);
+
+	return 0;
+}

@@ -1,0 +1,10 @@
+//ders 2
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int n1,n2,n3;
+	scanf(n1,n2,n3);
+
+	return 0;
+}

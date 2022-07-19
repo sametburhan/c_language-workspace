@@ -1,0 +1,927 @@
+
+**** Build of configuration Debug for project work1 ****
+
+Nothing to build for project work1
+08:35:54 **** Build of configuration Debug for project deneme ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:\cygwin64\bin;C:/Users/samet/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/Users/samet/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MATLAB\R2021b\runtime\win64;C:\Program Files\MATLAB\R2021b\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\samet\AppData\Local\Microsoft\WindowsApps;C:\Users\samet\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\samet\AppData\Local\GitHubDesktop\bin;C:\src\flutter\bin;C:\Users\samet\AppData\Local\atom\bin;C:\Users\samet\eclipse\cpp-2022-06\eclipse]
+08:37:07 **** Incremental Build of configuration Debug for project deneme ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:\cygwin64\bin;C:/Users/samet/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/Users/samet/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MATLAB\R2021b\runtime\win64;C:\Program Files\MATLAB\R2021b\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\samet\AppData\Local\Microsoft\WindowsApps;C:\Users\samet\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\samet\AppData\Local\GitHubDesktop\bin;C:\src\flutter\bin;C:\Users\samet\AppData\Local\atom\bin;C:\Users\samet\eclipse\cpp-2022-06\eclipse]
+08:37:13 **** Incremental Build of configuration Debug for project deneme ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:\cygwin64\bin;C:/Users/samet/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/Users/samet/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MATLAB\R2021b\runtime\win64;C:\Program Files\MATLAB\R2021b\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\samet\AppData\Local\Microsoft\WindowsApps;C:\Users\samet\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\samet\AppData\Local\GitHubDesktop\bin;C:\src\flutter\bin;C:\Users\samet\AppData\Local\atom\bin;C:\Users\samet\eclipse\cpp-2022-06\eclipse]
+08:37:18 **** Incremental Build of configuration Debug for project deneme ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:\cygwin64\bin;C:/Users/samet/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/Users/samet/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MATLAB\R2021b\runtime\win64;C:\Program Files\MATLAB\R2021b\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\samet\AppData\Local\Microsoft\WindowsApps;C:\Users\samet\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\samet\AppData\Local\GitHubDesktop\bin;C:\src\flutter\bin;C:\Users\samet\AppData\Local\atom\bin;C:\Users\samet\eclipse\cpp-2022-06\eclipse]
+08:37:18 **** Incremental Build of configuration Debug for project deneme ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:\cygwin64\bin;C:/Users/samet/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/Users/samet/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MATLAB\R2021b\runtime\win64;C:\Program Files\MATLAB\R2021b\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\samet\AppData\Local\Microsoft\WindowsApps;C:\Users\samet\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\samet\AppData\Local\GitHubDesktop\bin;C:\src\flutter\bin;C:\Users\samet\AppData\Local\atom\bin;C:\Users\samet\eclipse\cpp-2022-06\eclipse]
+08:37:31 **** Incremental Build of configuration Debug for project deneme ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:\cygwin64\bin;C:/Users/samet/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/Users/samet/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MATLAB\R2021b\runtime\win64;C:\Program Files\MATLAB\R2021b\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\samet\AppData\Local\Microsoft\WindowsApps;C:\Users\samet\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\samet\AppData\Local\GitHubDesktop\bin;C:\src\flutter\bin;C:\Users\samet\AppData\Local\atom\bin;C:\Users\samet\eclipse\cpp-2022-06\eclipse]
+08:37:46 **** Incremental Build of configuration Debug for project deneme ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:\cygwin64\bin;C:/Users/samet/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/Users/samet/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MATLAB\R2021b\runtime\win64;C:\Program Files\MATLAB\R2021b\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\samet\AppData\Local\Microsoft\WindowsApps;C:\Users\samet\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\samet\AppData\Local\GitHubDesktop\bin;C:\src\flutter\bin;C:\Users\samet\AppData\Local\atom\bin;C:\Users\samet\eclipse\cpp-2022-06\eclipse]
+08:38:49 **** Incremental Build of configuration Debug for project deneme ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:\cygwin64\bin;C:/Users/samet/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/Users/samet/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MATLAB\R2021b\runtime\win64;C:\Program Files\MATLAB\R2021b\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\samet\AppData\Local\Microsoft\WindowsApps;C:\Users\samet\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\samet\AppData\Local\GitHubDesktop\bin;C:\src\flutter\bin;C:\Users\samet\AppData\Local\atom\bin;C:\Users\samet\eclipse\cpp-2022-06\eclipse]
+08:38:49 **** Build of configuration Debug for project deneme2 ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Users/samet/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/Users/samet/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MATLAB\R2021b\runtime\win64;C:\Program Files\MATLAB\R2021b\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\samet\AppData\Local\Microsoft\WindowsApps;C:\Users\samet\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\samet\AppData\Local\GitHubDesktop\bin;C:\src\flutter\bin;C:\Users\samet\AppData\Local\atom\bin;C:\Users\samet\eclipse\cpp-2022-06\eclipse]
+08:42:00 **** Incremental Build of configuration Debug for project deneme ****
+make all 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:\cygwin64\bin;C:/Users/samet/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin/server;C:/Users/samet/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.3.v20220515-1416/jre/bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MATLAB\R2021b\runtime\win64;C:\Program Files\MATLAB\R2021b\bin;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\samet\AppData\Local\Microsoft\WindowsApps;C:\Users\samet\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\samet\AppData\Local\GitHubDesktop\bin;C:\src\flutter\bin;C:\Users\samet\AppData\Local\atom\bin;C:\cygwin64\bin;C:\msys64\mingw64\bin;;C:\Users\samet\eclipse\cpp-2022-06\eclipse]
+08:48:19 **** Rebuild of configuration Debug for project deneme ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\deneme.o" "..\\src\\deneme.c" 
+gcc -o deneme.exe "src\\deneme.o" 
+Info: Nothing to build for deneme
+08:49:06 **** Incremental Build of configuration Debug for project deneme ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\deneme.o" "..\\src\\deneme.c" 
+gcc -o deneme.exe "src\\deneme.o" 
+Info: Nothing to build for deneme
+Info: Nothing to build for deneme
+Info: Nothing to build for deneme
+08:49:23 **** Incremental Build of configuration Debug for project deneme ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\deneme.o" "..\\src\\deneme.c" 
+gcc -o deneme.exe "src\\deneme.o" 
+08:53:06 **** Rebuild of configuration Debug for project lesson1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson1.o" "..\\src\\lesson1.c" 
+gcc -o lesson1.exe "src\\lesson1.o" 
+Info: Nothing to build for lesson1
+Info: Nothing to build for lesson1
+Info: Nothing to build for lesson1
+08:59:02 **** Incremental Build of configuration Debug for project lesson1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson1.o" "..\\src\\lesson1.c" 
+gcc -o lesson1.exe "src\\lesson1.o" 
+09:02:23 **** Incremental Build of configuration Debug for project lesson1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson1.o" "..\\src\\lesson1.c" 
+..\src\lesson1.c: In function 'main':
+..\src\lesson1.c:16:9: error: too many arguments to function 'puts'
+   16 |         puts("değişkene işlem uyguladık %d",k);
+      |         ^~~~
+In file included from ..\src\lesson1.c:2:
+C:/msys/mingw64/include/stdio.h:703:15: note: declared here
+  703 |   int __cdecl puts(const char *_Str);
+      |               ^~~~
+09:02:56 **** Incremental Build of configuration Debug for project lesson1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson1.o" "..\\src\\lesson1.c" 
+gcc -o lesson1.exe "src\\lesson1.o" 
+09:06:44 **** Rebuild of configuration Debug for project cNotes ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson1.o" "..\\src\\lesson1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o cNotes.exe "src\\lesson1.o" "src\\lesson2.o" 
+09:08:01 **** Incremental Build of configuration Debug for project cNotes ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+..\src\lesson2.c:2:10: error: #include expects "FILENAME" or <FILENAME>
+    2 | #include
+      |          ^
+09:08:31 **** Incremental Build of configuration Debug for project cNotes ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o cNotes.exe "src\\lesson1.o" "src\\lesson2.o" 
+09:13:05 **** Incremental Build of configuration Debug for project cNotes ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o cNotes.exe "src\\lesson1.o" "src\\lesson2.o" 
+C:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: src\lesson2.o: in function `main':
+C:\Users\samet\eclipse-workspace\cNotes\Debug/../src/lesson2.c:4: multiple definition of `main'; src\lesson1.o:C:\Users\samet\eclipse-workspace\cNotes\Debug/../src/lesson1.c:5: first defined here
+collect2.exe: error: ld returned 1 exit status
+09:13:20 **** Incremental Build of configuration Debug for project cNotes ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o cNotes.exe "src\\lesson1.o" "src\\lesson2.o" 
+C:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: src\lesson2.o: in function `main':
+C:\Users\samet\eclipse-workspace\cNotes\Debug/../src/lesson2.c:4: multiple definition of `main'; src\lesson1.o:C:\Users\samet\eclipse-workspace\cNotes\Debug/../src/lesson1.c:5: first defined here
+collect2.exe: error: ld returned 1 exit status
+09:13:49 **** Incremental Build of configuration Debug for project cNotes ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o cNotes.exe "src\\lesson1.o" "src\\lesson2.o" 
+C:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: src\lesson2.o: in function `main':
+C:\Users\samet\eclipse-workspace\cNotes\Debug/../src/lesson2.c:5: multiple definition of `main'; src\lesson1.o:C:\Users\samet\eclipse-workspace\cNotes\Debug/../src/lesson1.c:5: first defined here
+collect2.exe: error: ld returned 1 exit status
+09:13:55 **** Incremental Build of configuration Debug for project cNotes ****
+Info: Internal Builder is used for build
+gcc -o cNotes.exe "src\\lesson1.o" "src\\lesson2.o" 
+C:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: src\lesson2.o: in function `main':
+C:\Users\samet\eclipse-workspace\cNotes\Debug/../src/lesson2.c:5: multiple definition of `main'; src\lesson1.o:C:\Users\samet\eclipse-workspace\cNotes\Debug/../src/lesson1.c:5: first defined here
+collect2.exe: error: ld returned 1 exit status
+09:13:58 **** Incremental Build of configuration Debug for project cNotes ****
+Info: Internal Builder is used for build
+gcc -o cNotes.exe "src\\lesson1.o" "src\\lesson2.o" 
+C:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: src\lesson2.o: in function `main':
+C:\Users\samet\eclipse-workspace\cNotes\Debug/../src/lesson2.c:5: multiple definition of `main'; src\lesson1.o:C:\Users\samet\eclipse-workspace\cNotes\Debug/../src/lesson1.c:5: first defined here
+collect2.exe: error: ld returned 1 exit status
+09:14:05 **** Incremental Build of configuration Debug for project cNotes ****
+Info: Internal Builder is used for build
+gcc -o cNotes.exe "src\\lesson1.o" "src\\lesson2.o" 
+C:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: src\lesson2.o: in function `main':
+C:\Users\samet\eclipse-workspace\cNotes\Debug/../src/lesson2.c:5: multiple definition of `main'; src\lesson1.o:C:\Users\samet\eclipse-workspace\cNotes\Debug/../src/lesson1.c:5: first defined here
+collect2.exe: error: ld returned 1 exit status
+09:15:32 **** Incremental Build of configuration Debug for project cNotes ****
+Info: Internal Builder is used for build
+gcc -o cNotes.exe "src\\lesson1.o" "src\\lesson2.o" 
+C:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: src\lesson2.o: in function `main':
+C:\Users\samet\eclipse-workspace\cNotes\Debug/../src/lesson2.c:5: multiple definition of `main'; src\lesson1.o:C:\Users\samet\eclipse-workspace\cNotes\Debug/../src/lesson1.c:5: first defined here
+collect2.exe: error: ld returned 1 exit status
+09:16:24 **** Incremental Build of configuration Debug for project cNotes ****
+Info: Internal Builder is used for build
+gcc -o cNotes.exe "src\\lesson1.o" 
+Info: Nothing to build for cNotes
+Info: Nothing to build for cNotes
+Info: Nothing to build for cNotes
+09:20:22 **** Rebuild of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+C:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib/libmingw32.a(lib64_libmingw32_a-crt0_c.o): in function `main':
+C:/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crt0_c.c:18: undefined reference to `WinMain'
+collect2.exe: error: ld returned 1 exit status
+09:20:48 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+09:21:50 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+09:22:17 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+09:22:25 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+09:25:03 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+..\src\lesson2.c: In function 'main':
+..\src\lesson2.c:7:15: warning: passing argument 1 of 'scanf' makes pointer from integer without a cast [-Wint-conversion]
+    7 |         scanf(n1,n2,n3);
+      |               ^~
+      |               |
+      |               int
+In file included from ..\src\lesson2.c:2:
+C:/msys/mingw64/include/stdio.h:301:23: note: expected 'const char *' but argument is of type 'int'
+  301 | int scanf(const char *__format, ...)
+      |           ~~~~~~~~~~~~^~~~~~~~
+..\src\lesson2.c:7:9: warning: 'n1' is used uninitialized [-Wuninitialized]
+    7 |         scanf(n1,n2,n3);
+      |         ^~~~~~~~~~~~~~~
+..\src\lesson2.c:6:13: note: 'n1' was declared here
+    6 |         int n1,n2,n3;
+      |             ^~
+..\src\lesson2.c:7:9: warning: 'n2' is used uninitialized [-Wuninitialized]
+    7 |         scanf(n1,n2,n3);
+      |         ^~~~~~~~~~~~~~~
+..\src\lesson2.c:6:16: note: 'n2' was declared here
+    6 |         int n1,n2,n3;
+      |                ^~
+..\src\lesson2.c:7:9: warning: 'n3' is used uninitialized [-Wuninitialized]
+    7 |         scanf(n1,n2,n3);
+      |         ^~~~~~~~~~~~~~~
+..\src\lesson2.c:6:19: note: 'n3' was declared here
+    6 |         int n1,n2,n3;
+      |                   ^~
+gcc -o lesson2.exe "src\\lesson2.o" 
+09:25:26 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+..\src\lesson2.c: In function 'main':
+..\src\lesson2.c:7:15: warning: passing argument 1 of 'scanf' from incompatible pointer type [-Wincompatible-pointer-types]
+    7 |         scanf(&n1,&n2,&n3);
+      |               ^~~
+      |               |
+      |               int *
+In file included from ..\src\lesson2.c:2:
+C:/msys/mingw64/include/stdio.h:301:23: note: expected 'const char *' but argument is of type 'int *'
+  301 | int scanf(const char *__format, ...)
+      |           ~~~~~~~~~~~~^~~~~~~~
+..\src\lesson2.c:7:9: warning: 'n1' may be used uninitialized [-Wmaybe-uninitialized]
+    7 |         scanf(&n1,&n2,&n3);
+      |         ^~~~~~~~~~~~~~~~~~
+C:/msys/mingw64/include/stdio.h:301:5: note: by argument 1 of type 'const char *' to 'scanf' declared here
+  301 | int scanf(const char *__format, ...)
+      |     ^~~~~
+..\src\lesson2.c:6:13: note: 'n1' declared here
+    6 |         int n1,n2,n3;
+      |             ^~
+gcc -o lesson2.exe "src\\lesson2.o" 
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+09:25:52 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+..\src\lesson2.c: In function 'main':
+..\src\lesson2.c:7:34: error: invalid operands to binary & (have 'char *' and 'int')
+    7 |         scanf("3 sayı giriniz = "&n1,&n2,&n3);
+      |               ~~~~~~~~~~~~~~~~~~~^
+      |               |
+      |               char *
+09:26:03 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+..\src\lesson2.c: In function 'main':
+..\src\lesson2.c:7:15: warning: too many arguments for format [-Wformat-extra-args]
+    7 |         scanf("3 sayı giriniz = ",&n1,&n2,&n3);
+      |               ^~~~~~~~~~~~~~~~~~~
+gcc -o lesson2.exe "src\\lesson2.o" 
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+09:26:35 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+09:26:47 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+..\src\lesson2.c: In function 'main':
+..\src\lesson2.c:7:15: warning: passing argument 1 of 'scanf' from incompatible pointer type [-Wincompatible-pointer-types]
+    7 |         scanf(&n1,&n2,&n3);
+      |               ^~~
+      |               |
+      |               int *
+In file included from ..\src\lesson2.c:2:
+C:/msys/mingw64/include/stdio.h:301:23: note: expected 'const char *' but argument is of type 'int *'
+  301 | int scanf(const char *__format, ...)
+      |           ~~~~~~~~~~~~^~~~~~~~
+..\src\lesson2.c:7:9: warning: 'n1' may be used uninitialized [-Wmaybe-uninitialized]
+    7 |         scanf(&n1,&n2,&n3);
+      |         ^~~~~~~~~~~~~~~~~~
+C:/msys/mingw64/include/stdio.h:301:5: note: by argument 1 of type 'const char *' to 'scanf' declared here
+  301 | int scanf(const char *__format, ...)
+      |     ^~~~~
+..\src\lesson2.c:6:13: note: 'n1' declared here
+    6 |         int n1,n2,n3;
+      |             ^~
+gcc -o lesson2.exe "src\\lesson2.o" 
+09:26:51 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+09:28:13 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+09:28:34 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+09:29:12 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+09:29:30 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+09:29:44 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+09:29:54 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+09:30:12 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+09:35:59 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+09:36:42 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+09:37:24 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+09:37:34 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+09:40:27 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+..\src\lesson2.c: In function 'main':
+..\src\lesson2.c:24:17: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+   24 |         scanf("%d",&r);
+      |                ~^  ~~
+      |                 |  |
+      |                 |  float *
+      |                 int *
+      |                %e
+gcc -o lesson2.exe "src\\lesson2.o" 
+09:40:35 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+09:44:18 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+09:44:32 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+09:49:43 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+09:51:38 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+09:54:22 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+09:54:32 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+Info: Nothing to build for lesson2
+09:54:52 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+Info: Nothing to build for lesson2
+09:55:07 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+09:55:37 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+09:56:01 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+09:56:51 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+09:58:20 **** Incremental Build of configuration Debug for project lesson2 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson2.o" "..\\src\\lesson2.c" 
+gcc -o lesson2.exe "src\\lesson2.o" 
+09:58:50 **** Rebuild of configuration Debug for project lesson1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson1.o" "..\\src\\lesson1.c" 
+gcc -o lesson1.exe "src\\lesson1.o" 
+Info: Nothing to build for lesson1
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson2
+09:59:33 **** Rebuild of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+Info: Nothing to build for lesson3
+Info: Nothing to build for lesson3
+Info: Nothing to build for lesson3
+09:59:48 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+Info: Nothing to build for lesson2
+Info: Nothing to build for lesson3
+10:04:43 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+10:08:32 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+..\src\lesson3.c: In function 'main':
+..\src\lesson3.c:7:35: error: invalid operands to binary & (have 'int *' and 'int')
+    7 |         scanf("%d %d %d", &second &minute &hour);
+      |                           ~~~~~~~ ^
+      |                           |
+      |                           int *
+10:08:59 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+10:12:09 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+..\src\lesson3.c: In function 'main':
+..\src\lesson3.c:17:23: error: invalid operands to binary - (have 'int' and 'char *')
+   17 |         printf("%d",ch-"A"+1);
+      |                       ^
+      |                       |
+      |                       char *
+10:12:17 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+10:14:24 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+Info: Nothing to build for lesson3
+10:14:44 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+10:16:58 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+..\src\lesson3.c: In function 'main':
+..\src\lesson3.c:20:20: warning: initialization of 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   20 |         char ch2 = "ABC";
+      |                    ^~~~~
+gcc -o lesson3.exe "src\\lesson3.o" 
+10:17:54 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+..\src\lesson3.c: In function 'main':
+..\src\lesson3.c:20:20: warning: initialization of 'char' from 'char *' makes integer from pointer without a cast [-Wint-conversion]
+   20 |         char ch2 = "B";
+      |                    ^~~
+gcc -o lesson3.exe "src\\lesson3.o" 
+10:19:05 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+Info: Nothing to build for lesson3
+Info: Nothing to build for lesson3
+10:20:26 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+10:20:41 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+Info: Nothing to build for lesson3
+10:25:59 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+Info: Nothing to build for lesson3
+10:26:42 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+10:27:23 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+..\src\lesson3.c: In function 'main':
+..\src\lesson3.c:21:48: warning: multi-character character constant [-Wmultichar]
+   21 |         printf("ABC den A çıkarsa = %d kalır", 'ABC'-ch);//
+      |                                                ^~~~~
+gcc -o lesson3.exe "src\\lesson3.o" 
+10:28:39 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+Info: Nothing to build for lesson3
+10:31:35 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+Info: Nothing to build for lesson3
+10:31:51 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+10:35:32 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+Info: Nothing to build for lesson3
+Info: Nothing to build for lesson3
+10:36:10 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+10:36:20 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+10:36:37 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+..\src\lesson3.c: In function 'main':
+..\src\lesson3.c:28:21: warning: multi-character character constant [-Wmultichar]
+   28 |         result = (a-'10')*(b-'0');//c dili "ile '' arasındaki farka duyarlı noktalama işaretlerine dikkat
+      |                     ^~~~
+gcc -o lesson3.exe "src\\lesson3.o" 
+10:36:51 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+10:38:38 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+10:40:02 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+Info: Nothing to build for lesson3
+Info: Nothing to build for lesson3
+10:40:09 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+10:41:02 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+10:44:47 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+10:44:56 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+10:45:10 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+10:47:01 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+..\src\lesson3.c: In function 'main':
+..\src\lesson3.c:34:9: error: expected ',' or ';' before 'printf'
+   34 |         printf("8 ile 8 in toplamı = %d",result2);//
+      |         ^~~~~~
+..\src\lesson3.c:33:13: warning: unused variable 'result2' [-Wunused-variable]
+   33 |         int result2 = k+d
+      |             ^~~~~~~
+10:47:42 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+..\src\lesson3.c: In function 'main':
+..\src\lesson3.c:34:9: error: expected ',' or ';' before 'printf'
+   34 |         printf("8 ile 8 in toplamı = %d",result2);//
+      |         ^~~~~~
+..\src\lesson3.c:33:13: warning: unused variable 'result2' [-Wunused-variable]
+   33 |         int result2 = (k+0)+(d+0)
+      |             ^~~~~~~
+10:48:02 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+..\src\lesson3.c: In function 'main':
+..\src\lesson3.c:34:9: error: expected ',' or ';' before 'printf'
+   34 |         printf("8 ile 8 in toplamı = %d",result2);//
+      |         ^~~~~~
+..\src\lesson3.c:33:13: warning: unused variable 'result2' [-Wunused-variable]
+   33 |         int result2 = (k+'0')+(d+'0')
+      |             ^~~~~~~
+10:48:34 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+..\src\lesson3.c: In function 'main':
+..\src\lesson3.c:34:9: error: expected ',' or ';' before 'printf'
+   34 |         printf("8 ile 2 nin toplamı = %d",result2);//
+      |         ^~~~~~
+..\src\lesson3.c:33:13: warning: unused variable 'result2' [-Wunused-variable]
+   33 |         int result2 = (k+'0')*(d+'0')
+      |             ^~~~~~~
+10:48:39 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+..\src\lesson3.c: In function 'main':
+..\src\lesson3.c:34:9: error: expected ',' or ';' before 'printf'
+   34 |         printf("8 ile 2 nin toplamı = %d",result2);//
+      |         ^~~~~~
+..\src\lesson3.c:33:13: warning: unused variable 'result2' [-Wunused-variable]
+   33 |         int result2 = (k+'0')*(d+'0')
+      |             ^~~~~~~
+10:48:40 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+..\src\lesson3.c: In function 'main':
+..\src\lesson3.c:34:9: error: expected ',' or ';' before 'printf'
+   34 |         printf("8 ile 2 nin toplamı = %d",result2);//
+      |         ^~~~~~
+..\src\lesson3.c:33:13: warning: unused variable 'result2' [-Wunused-variable]
+   33 |         int result2 = (k+'0')*(d+'0')
+      |             ^~~~~~~
+10:48:46 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+..\src\lesson3.c: In function 'main':
+..\src\lesson3.c:34:9: error: expected ',' or ';' before 'printf'
+   34 |         printf("8 ile 2 nin toplamı = %d",result2);//
+      |         ^~~~~~
+..\src\lesson3.c:33:13: warning: unused variable 'result2' [-Wunused-variable]
+   33 |         int result2 = (k+'0')*(d+'0')
+      |             ^~~~~~~
+10:49:03 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+10:49:24 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+10:50:34 **** Incremental Build of configuration Debug for project lesson3 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson3.o" "..\\src\\lesson3.c" 
+gcc -o lesson3.exe "src\\lesson3.o" 
+10:54:22 **** Rebuild of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+gcc -o lesson4.exe "src\\lesson4.o" 
+Info: Nothing to build for lesson4
+10:56:27 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+gcc -o lesson4.exe "src\\lesson4.o" 
+Info: Nothing to build for lesson4
+10:56:57 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+..\src\lesson4.c: In function 'main':
+..\src\lesson4.c:6:1: warning: implicit declaration of function 'Prinf'; did you mean 'printf'? [-Wimplicit-function-declaration]
+    6 | Prinf("dasdfadf");
+      | ^~~~~
+      | printf
+gcc -o lesson4.exe "src\\lesson4.o" 
+C:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: src\lesson4.o: in function `main':
+C:\Users\samet\eclipse-workspace\lesson4\Debug/../src/lesson4.c:6: undefined reference to `Prinf'
+collect2.exe: error: ld returned 1 exit status
+10:57:10 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+gcc -o lesson4.exe "src\\lesson4.o" 
+10:57:34 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+gcc -o lesson4.exe "src\\lesson4.o" 
+10:58:50 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+gcc -o lesson4.exe "src\\lesson4.o" 
+11:02:51 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+gcc -o lesson4.exe "src\\lesson4.o" 
+11:03:02 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+gcc -o lesson4.exe "src\\lesson4.o" 
+11:05:50 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+gcc -o lesson4.exe "src\\lesson4.o" 
+Info: Nothing to build for lesson4
+11:06:30 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+gcc -o lesson4.exe "src\\lesson4.o" 
+11:08:10 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+gcc -o lesson4.exe "src\\lesson4.o" 
+11:10:17 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+gcc -o lesson4.exe "src\\lesson4.o" 
+Info: Nothing to build for lesson4
+Info: Nothing to build for lesson4
+11:10:34 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+gcc -o lesson4.exe "src\\lesson4.o" 
+11:19:54 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+..\src\lesson4.c: In function 'main':
+..\src\lesson4.c:50:11: warning: 'sign' may be used uninitialized [-Wmaybe-uninitialized]
+   50 |         if(sign == '*'){
+      |           ^
+..\src\lesson4.c:47:14: note: 'sign' was declared here
+   47 |         char sign;
+      |              ^~~~
+..\src\lesson4.c:52:24: warning: 'num1' may be used uninitialized [-Wmaybe-uninitialized]
+   52 |                 result = num1*num2;
+      |                 ~~~~~~~^~~~~~~~~~~
+..\src\lesson4.c:46:15: note: 'num1' was declared here
+   46 |         float num1,num2,result;
+      |               ^~~~
+..\src\lesson4.c:52:24: warning: 'num2' may be used uninitialized [-Wmaybe-uninitialized]
+   52 |                 result = num1*num2;
+      |                 ~~~~~~~^~~~~~~~~~~
+..\src\lesson4.c:46:20: note: 'num2' was declared here
+   46 |         float num1,num2,result;
+      |                    ^~~~
+gcc -o lesson4.exe "src\\lesson4.o" 
+11:21:39 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+..\src\lesson4.c: In function 'main':
+..\src\lesson4.c:49:24: error: invalid operands to binary & (have 'char *' and 'float')
+   49 |         scanf("num1 %f"&num1);
+      |               ~~~~~~~~~^
+      |               |
+      |               char *
+11:21:45 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+..\src\lesson4.c: In function 'main':
+..\src\lesson4.c:49:20: error: invalid operands to binary & (have 'char *' and 'float')
+   49 |         scanf(" %f"&num1);
+      |               ~~~~~^
+      |               |
+      |               char *
+11:21:54 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+..\src\lesson4.c: In function 'main':
+..\src\lesson4.c:49:19: error: invalid operands to binary & (have 'char *' and 'float')
+   49 |         scanf("%f"&num1);
+      |               ~~~~^
+      |               |
+      |               char *
+11:22:03 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+..\src\lesson4.c: In function 'main':
+..\src\lesson4.c:51:11: warning: 'sign' may be used uninitialized [-Wmaybe-uninitialized]
+   51 |         if(sign == '*'){
+      |           ^
+..\src\lesson4.c:47:14: note: 'sign' was declared here
+   47 |         char sign;
+      |              ^~~~
+..\src\lesson4.c:53:24: warning: 'num2' may be used uninitialized [-Wmaybe-uninitialized]
+   53 |                 result = num1*num2;
+      |                 ~~~~~~~^~~~~~~~~~~
+..\src\lesson4.c:46:20: note: 'num2' was declared here
+   46 |         float num1,num2,result;
+      |                    ^~~~
+gcc -o lesson4.exe "src\\lesson4.o" 
+11:22:11 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+..\src\lesson4.c: In function 'main':
+..\src\lesson4.c:51:11: warning: 'sign' may be used uninitialized [-Wmaybe-uninitialized]
+   51 |         if(sign == '*'){
+      |           ^
+..\src\lesson4.c:47:14: note: 'sign' was declared here
+   47 |         char sign;
+      |              ^~~~
+..\src\lesson4.c:53:24: warning: 'num2' may be used uninitialized [-Wmaybe-uninitialized]
+   53 |                 result = num1*num2;
+      |                 ~~~~~~~^~~~~~~~~~~
+..\src\lesson4.c:46:20: note: 'num2' was declared here
+   46 |         float num1,num2,result;
+      |                    ^~~~
+gcc -o lesson4.exe "src\\lesson4.o" 
+11:23:33 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+gcc -o lesson4.exe "src\\lesson4.o" 
+11:23:51 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+gcc -o lesson4.exe "src\\lesson4.o" 
+Info: Nothing to build for lesson4
+Info: Nothing to build for lesson4
+11:24:07 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+gcc -o lesson4.exe "src\\lesson4.o" 
+11:24:25 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+gcc -o lesson4.exe "src\\lesson4.o" 
+11:24:51 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+gcc -o lesson4.exe "src\\lesson4.o" 
+11:24:58 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+gcc -o lesson4.exe "src\\lesson4.o" 
+Info: Nothing to build for lesson4
+11:25:25 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+gcc -o lesson4.exe "src\\lesson4.o" 
+11:25:29 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+gcc -o lesson4.exe "src\\lesson4.o" 
+11:26:05 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+gcc -o lesson4.exe "src\\lesson4.o" 
+Info: Nothing to build for lesson4
+11:29:37 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+gcc -o lesson4.exe "src\\lesson4.o" 
+11:32:37 **** Incremental Build of configuration Debug for project lesson4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson4.o" "..\\src\\lesson4.c" 
+gcc -o lesson4.exe "src\\lesson4.o" 
+11:33:07 **** Rebuild of configuration Debug for project lesson5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson5.o" "..\\src\\lesson5.c" 
+gcc -o lesson5.exe "src\\lesson5.o" 
+Info: Nothing to build for lesson5

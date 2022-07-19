@@ -1,0 +1,15 @@
+//ders3
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	int total_second;
+	scanf("%d", &total_second);
+
+	int hours = total_second/3600;
+	int minutes = (total_second - hours*3600)/60;
+	int seconds = (total_second - hours*3600 - minutes*60);
+	printf("%d %d %d", hours, minutes,seconds);
+
+	return EXIT_SUCCESS;
+}

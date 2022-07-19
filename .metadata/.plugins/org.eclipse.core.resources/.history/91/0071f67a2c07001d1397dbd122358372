@@ -1,0 +1,15 @@
+//ders 2
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	puts("3 sayı giriniz;");//scanf kod bloğunun daha önce çalıştırılmasından dolayı
+	//string ifade daha sonra ekrana yazılmaktadır.
+	int n1,n2,n3;//önceden tanımlanan int değişkenler
+
+	scanf("%d %d %d",&n1,&n2,&n3);//kullanıcıdan int veri alabilmek için scanf komutu kullanılır
+	//bu komut ek olarak %d ve & kodları kullanmaktadır.
+	printf("girdiğiniz sayıların çarpımı = %d",n1*n2*n3);
+
+	return 0;
+}
