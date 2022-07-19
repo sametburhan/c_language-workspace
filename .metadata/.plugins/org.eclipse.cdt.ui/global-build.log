@@ -925,3 +925,53 @@ Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson5.o" "..\\src\\lesson5.c" 
 gcc -o lesson5.exe "src\\lesson5.o" 
 Info: Nothing to build for lesson5
+11:50:26 **** Incremental Build of configuration Debug for project lesson5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson5.o" "..\\src\\lesson5.c" 
+gcc -o lesson5.exe "src\\lesson5.o" 
+Info: Nothing to build for lesson5
+12:42:04 **** Incremental Build of configuration Debug for project lesson5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson5.o" "..\\src\\lesson5.c" 
+..\src\lesson5.c: In function 'main':
+..\src\lesson5.c:28:20: error: expected ';' before '}' token
+   28 |                 k++
+      |                    ^
+      |                    ;
+   29 |         }
+      |         ~           
+12:42:13 **** Incremental Build of configuration Debug for project lesson5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson5.o" "..\\src\\lesson5.c" 
+gcc -o lesson5.exe "src\\lesson5.o" 
+Info: Nothing to build for lesson5
+12:45:27 **** Incremental Build of configuration Debug for project lesson5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson5.o" "..\\src\\lesson5.c" 
+gcc -o lesson5.exe "src\\lesson5.o" 
+Info: Nothing to build for lesson5
+12:47:39 **** Incremental Build of configuration Debug for project lesson5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson5.o" "..\\src\\lesson5.c" 
+gcc -o lesson5.exe "src\\lesson5.o" 
+12:48:35 **** Incremental Build of configuration Debug for project lesson5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson5.o" "..\\src\\lesson5.c" 
+gcc -o lesson5.exe "src\\lesson5.o" 
+12:48:51 **** Incremental Build of configuration Debug for project lesson5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson5.o" "..\\src\\lesson5.c" 
+gcc -o lesson5.exe "src\\lesson5.o" 
+12:53:14 **** Incremental Build of configuration Debug for project lesson5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson5.o" "..\\src\\lesson5.c" 
+gcc -o lesson5.exe "src\\lesson5.o" 
+Info: Nothing to build for lesson5
+12:54:01 **** Incremental Build of configuration Debug for project lesson5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson5.o" "..\\src\\lesson5.c" 
+gcc -o lesson5.exe "src\\lesson5.o" 
+12:56:39 **** Incremental Build of configuration Debug for project lesson5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson5.o" "..\\src\\lesson5.c" 
+gcc -o lesson5.exe "src\\lesson5.o" 

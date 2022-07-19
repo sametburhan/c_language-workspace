@@ -20,18 +20,17 @@ int main() {
 			printf("asdfasdf");
 		}
 	-----------------------------------------------------*/
-	int column,row;
-	scanf("%d %d",&column,&row);
-	int t=0,k=0;
-
-	while(t<row-1){
-		while(k<column){
-			printf("*");
-		    k++;
+	int N,M;
+	scanf("%d %d",&N,&M);
+	int k = 0,t = 0;
+	while(k<N){
+		while(t<M){
+		printf("*");
+		t++;
 		}
 		printf("\n");
-		t++;
-	}//neden çalışmıyor??
+		k++;
+	}//
 
 	return 0;
 }

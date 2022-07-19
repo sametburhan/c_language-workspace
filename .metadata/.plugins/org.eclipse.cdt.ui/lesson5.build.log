@@ -1,1 +1,7 @@
-Info: Nothing to build for lesson5
+12:56:39 **** Incremental Build of configuration Debug for project lesson5 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson5.o" "..\\src\\lesson5.c" 
+gcc -o lesson5.exe "src\\lesson5.o" 
+
+12:56:40 Build Finished. 0 errors, 0 warnings. (took 288ms)
+

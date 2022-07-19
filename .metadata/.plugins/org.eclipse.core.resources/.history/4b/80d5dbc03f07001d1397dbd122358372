@@ -4,8 +4,6 @@
 
 int main(void) {
 	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
-	//the printf() function is used to print both strings and variables to the screen
-	//while the puts() function only permits you to print a string only to your screen.
 	int i = 0;
 	printf("Hello World!\n");
 	i+=2;

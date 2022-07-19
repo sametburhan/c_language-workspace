@@ -1,7 +1,8 @@
-ConfigSelector.shell.h=78
+ConfigSelector.shell.h=258
 ConfigSelector.shell.w=250
-ModeSelector.shell.h=42
+ModeSelector.shell.h=102
 ModeSelector.shell.w=150
 TargetSelector.shell.h=74
 TargetSelector.shell.w=200
 eclipse.preferences.version=1
+launchHistorySize=1
