@@ -6377,3 +6377,32 @@ java.io.IOException: Cannot run program "C:\Users\samet\eclipse-workspace\lesson
 	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
 	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-07-19 15:36:33.861
+!MESSAGE Indexed 'lesson7' (1 sources, 20 headers) in 0,1 sec: 2.177 declarations; 3.134 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (%0)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-07-19 15:43:28.198
+!MESSAGE Indexed 'lesson7' (1 sources, 20 headers) in 0,088 sec: 2.184 declarations; 3.150 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (%0)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-07-19 15:43:35.179
+!MESSAGE Indexed 'lesson7' (1 sources, 20 headers) in 0,064 sec: 2.184 declarations; 3.150 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (%0)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2022-07-19 15:43:38.824
+!MESSAGE Error with command: gdb --version
+!STACK 0
+java.io.IOException: Cannot run program "gdb": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:450)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:147)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:134)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:194)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:92)
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.getGDBVersion(LaunchUtils.java:319)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunch.getGDBVersion(GdbLaunch.java:536)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:157)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

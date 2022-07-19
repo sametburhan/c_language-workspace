@@ -20,7 +20,7 @@ int main(){
 		}
 		digit_count++;
 	}
-	printf("%d %d",digit_count,even_sum);//nasıl çalışıyor?
+	printf("%d %d",digit_count,even_sum);//basamak sayısı
 	-------------------------------------------------
 	int sum = 0;
 		int x;
@@ -76,7 +76,7 @@ int main(){
 
 				k++;
 			}
-	-------------------------------------------------*/
+	-------------------------------------------------
 	int a,b;//bir aralığın içindeki asal sayıları bulma kodu
 	scanf("%d %d",&a,&b);
 	for(int x = a;x<=b;x++){
@@ -93,6 +93,25 @@ int main(){
 			printf("%d",x);
 		}//
 	}
+	-------------------------------------------------*///kendim deneyeceğim
+	/*
+	int s =0;
+	    int k,l;
+		scanf("%d %d",&k,&l);
+		for(int i=k;i<=l;i++){
+		  if(i!=1){
+		if(i%2!=0 || i==2){
+		    if(i%3!=0 || i==3){
+		        if(i%5!=0 || i==5){
+		            if(i%7!=0 || i==7){
+		    printf("%d \n",i);
+		                s++;
+		            }}}
+		}}
+		}
+		printf("%d ile %d arasında %d tane asal sayı vardır",k,l,s);
+		-------------------------------------------------*/
+	printf("\n%f",pow(2,3));
 
 	return 0;
 }
