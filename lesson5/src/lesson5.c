@@ -19,7 +19,7 @@ int main() {
 		else{
 			printf("asdfasdf");
 		}
-	-----------------------------------------------------*/
+	-----------------------------------------------------
 	int column,row;
 	scanf("%d %d",&column,&row);
 	int t=0,k=0;
@@ -32,6 +32,27 @@ int main() {
 		printf("\n");
 		t++;
 	}//neden çalışmıyor??
+	-----------------------------------------------------
+	int p,s;
+	int a,b;
+	scanf("%d %d",&a,&b);
+	for(p = 0; p < a; p++){
+		for(s = 0;s<b;s++){
+					printf("*");
+				}
+				printf("\n");
+	}
+	-----------------------------------------------------*/
+	int a, b;
+		scanf("%d %d", &a, &b);
+		int result = 1;
+
+		int i;
+		for(i = 0 ; i < b ; i++){
+			result *= a;
+			printf("%d",result);//doğrudan printf(result) şeklinde yazılamaz
+			//değişken türü de %d ile belirtilmelidir
+		}
 
 	return 0;
 }
