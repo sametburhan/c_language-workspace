@@ -54,5 +54,7 @@ int main() {
 			//değişken türü de %d ile belirtilmelidir
 		}
 
+
+
 	return 0;
 }
