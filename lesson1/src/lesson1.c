@@ -19,5 +19,27 @@ int main(void) {
 	//printf puts koduna göre daha kullanışlıdır.
 
 
+	int a,b,c;//finding roots
+	    scanf("%d %d %d",&a,&b,&c);
+	    int delta = b*b-4*a*c;
+	    int root1,root2;
+	    root1 = ((-b)+(sqrt(delta)))/(2*a);
+	    root1 = ((-b)-(sqrt(delta)))/(2*a);
+	    if(delta<0){
+	        printf("u have imaginary roots");
+	    }else if(delta==0){
+	        printf("u have a root, which one is %d",root1);
+	    }else{
+	        printf("u have double roots and these are %d and %d",root1,root2);
+	    }
+
+	    int k, l, m, n;
+	     k = 15;
+	     l = 10;
+	     m = ++k - l; //k sadece işlem süresince değişti kalıcı bir durum olmadı
+	     printf("k = %d l = %d m = %d\n",k, l, m);
+	     n = l++ +k; //l kalıcı olarak arttı
+	    printf("k = %d l = %d m = %d n = %d\n",k, l,m, n);
+
 	return 0;//main bloğunun bitiş kodu
 }
