@@ -739,3 +739,83 @@ Info: Nothing to build for lesson9
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson9.o" "..\\src\\lesson9.c" 
 gcc -o lesson9.exe "src\\lesson9.o" 
+13:53:16 **** Incremental Build of configuration Debug for project lesson9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson9.o" "..\\src\\lesson9.c" 
+..\src\lesson9.c: In function 'main':
+..\src\lesson9.c:65:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   65 |                 scanf("%d",arr[i]);
+      |                        ~^  ~~~~~~
+      |                         |     |
+      |                         int * int
+..\src\lesson9.c:63:9: warning: 'k' is used uninitialized [-Wuninitialized]
+   63 |         int arr[k];
+      |         ^~~
+..\src\lesson9.c:62:13: note: 'k' was declared here
+   62 |         int k,i;
+      |             ^
+gcc -o lesson9.exe "src\\lesson9.o" 
+Info: Nothing to build for lesson9
+13:53:43 **** Incremental Build of configuration Debug for project lesson9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson9.o" "..\\src\\lesson9.c" 
+..\src\lesson9.c: In function 'main':
+..\src\lesson9.c:63:17: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   63 |         scanf("%d",k);
+      |                ~^  ~
+      |                 |  |
+      |                 |  int
+      |                 int *
+..\src\lesson9.c:66:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   66 |                 scanf("%d",arr[i]);
+      |                        ~^  ~~~~~~
+      |                         |     |
+      |                         int * int
+..\src\lesson9.c:63:9: warning: 'k' is used uninitialized [-Wuninitialized]
+   63 |         scanf("%d",k);
+      |         ^~~~~~~~~~~~~
+..\src\lesson9.c:62:13: note: 'k' was declared here
+   62 |         int k,i;
+      |             ^
+gcc -o lesson9.exe "src\\lesson9.o" 
+13:59:49 **** Incremental Build of configuration Debug for project lesson9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson9.o" "..\\src\\lesson9.c" 
+gcc -o lesson9.exe "src\\lesson9.o" 
+14:27:33 **** Incremental Build of configuration Debug for project lesson9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson9.o" "..\\src\\lesson9.c" 
+..\src\lesson9.c: In function 'main':
+..\src\lesson9.c:110:13: warning: unused variable 'abc' [-Wunused-variable]
+  110 |         int abc[3];
+      |             ^~~
+gcc -o lesson9.exe "src\\lesson9.o" 
+14:28:46 **** Incremental Build of configuration Debug for project lesson9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson9.o" "..\\src\\lesson9.c" 
+..\src\lesson9.c: In function 'main':
+..\src\lesson9.c:113:29: error: called object 'abc' is not a function or function pointer
+  113 |                 printf("%d",abc(i));
+      |                             ^~~
+..\src\lesson9.c:110:13: note: declared here
+  110 |         int abc[3],i;
+      |             ^~~
+14:29:19 **** Incremental Build of configuration Debug for project lesson9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson9.o" "..\\src\\lesson9.c" 
+gcc -o lesson9.exe "src\\lesson9.o" 
+14:29:36 **** Incremental Build of configuration Debug for project lesson9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson9.o" "..\\src\\lesson9.c" 
+gcc -o lesson9.exe "src\\lesson9.o" 
+15:42:35 **** Incremental Build of configuration Debug for project lesson9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson9.o" "..\\src\\lesson9.c" 
+..\src\lesson9.c: In function 'main':
+..\src\lesson9.c:211:18: warning: statement with no effect [-Wunused-value]
+  211 |             for(i<10;i++;)
+      |                 ~^~~
+..\src\lesson9.c:209:21: warning: variable 't' set but not used [-Wunused-but-set-variable]
+  209 |         int k=0,i=0,t=0;
+      |                     ^
+gcc -o lesson9.exe "src\\lesson9.o" 
