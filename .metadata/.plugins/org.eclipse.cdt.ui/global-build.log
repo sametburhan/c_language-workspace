@@ -316,3 +316,22 @@ gcc -o lesson7.exe "src\\lesson7.o"
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson7.o" "..\\src\\lesson7.c" 
 gcc -o lesson7.exe "src\\lesson7.o" 
+09:59:46 **** Incremental Build of configuration Debug for project lesson7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson7.o" "..\\src\\lesson7.c" 
+..\src\lesson7.c: In function 'main':
+..\src\lesson7.c:254:9: error: expected declaration or statement at end of input
+  254 |         return 0;
+      |         ^~~~~~
+10:00:00 **** Incremental Build of configuration Debug for project lesson7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson7.o" "..\\src\\lesson7.c" 
+gcc -o lesson7.exe "src\\lesson7.o" 
+Info: Nothing to build for lesson7
+Info: Nothing to build for lesson7
+Info: Nothing to build for lesson7
+10:00:59 **** Incremental Build of configuration Release for project lesson7 ****
+Info: Internal Builder is used for build
+gcc -O3 -Wall -c -fmessage-length=0 -o "src\\lesson7.o" "..\\src\\lesson7.c" 
+gcc -o lesson7.exe "src\\lesson7.o" 
+Info: Nothing to build for lesson7

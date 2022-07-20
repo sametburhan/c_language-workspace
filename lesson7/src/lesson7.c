@@ -128,7 +128,7 @@ int asal(int deger){
 		}
 	}
 	return asal_mi;
-}------------------------------------------------------------------------------------//geri dönülecek!!!!
+}------------------------------------------------------------------------------------
 int is_prime(int x){
 	int i;
 	int isPrime = 1;
@@ -162,7 +162,6 @@ int main() {
 	scanf("%d",&x);
 
 	int digit_count=0;
-	int last_digit;
 
 
 	for(int i = x;i>0;){
@@ -183,4 +182,74 @@ int main() {
 
     return 0;
 
+}------------------------------------------------------------------------------------//binary number
+long int to_binary(int x){
+    int binary = 0;
+   int mult = 1;
+
+	for(int i = x;i>0;){//ilk değerde i = 12 ikinci değerde i = 6 üçüncü değerde i=3 dördüncü değerde i = 1
+	    binary += mult*(i%2);//1*12%2 = 0 / 10*6%2 = 0 / 100*1=100 / 1000*i%2=1000
+	    mult*=10;//1*10 = 10 / 10*10 = 100 / 100*10=1000 / 1000*10=10000
+		i/=2;//12/2 = 6 / 6/2 = 3 / 3/2 = 1 / 1/2=0 kod bloğu burada sonlanır
+	}
+
+    return binary;
+}
+int main() {
+	int x;//referans sayı 12
+	scanf("%d", &x);
+	printf("%ld", to_binary(x));
+	return 0;
+}------------------------------------------------------------------------------------
+int fibonacci(int x){
+    int first = 1;
+    int second = 1;
+    int result = 0;
+	for(int i = x-4;i>=0;i--){
+	    if(first == 1 && second == 1){
+	        printf("%d %d ",first, second);
+	    }
+	    result = first+second;
+	    printf("%d ",result);
+	    second = first;
+	    first = result;
+	}
+}
+
+int main() {
+	int x;
+
+	scanf("%d", &x);
+
+	printf("%d", fibonacci(x));
+
+	return 0;
 }------------------------------------------------------------------------------------*/
+int is_prime(int x){
+	int i;
+	int isPrime = 1;
+	if(x < 2)
+		isPrime = 0;
+	for(i = 2 ; i < x ; i++){
+		if(x % i == 0){
+			isPrime = 0;
+			break;
+		}
+	}
+	return isPrime;
+}
+
+void prime_sum(int x){
+	for(int i = 2 ; i <= x/2 ; i++){
+		if(is_prime(i) && is_prime(x-i)){
+			printf("%d %d\n", i, x-i);
+		}
+	}
+}
+
+int main() {
+	int x;
+	scanf("%d", &x);
+	prime_sum(x);
+	return 0;
+}
