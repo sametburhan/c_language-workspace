@@ -44,3 +44,275 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson7.o" "..\\src\\lesson7.c"
    13 |     int N = 1;
       |         ^
 gcc -o lesson7.exe "src\\lesson7.o" 
+16:39:11 **** Incremental Build of configuration Debug for project lesson7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson7.o" "..\\src\\lesson7.c" 
+gcc -o lesson7.exe "src\\lesson7.o" 
+Info: Nothing to build for lesson7
+16:56:56 **** Incremental Build of configuration Debug for project lesson7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson7.o" "..\\src\\lesson7.c" 
+gcc -o lesson7.exe "src\\lesson7.o" 
+17:04:12 **** Incremental Build of configuration Debug for project lesson7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson7.o" "..\\src\\lesson7.c" 
+..\src\lesson7.c: In function 'main':
+..\src\lesson7.c:108:16: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+  108 |         printf(carpanlar(sayi));
+      |                ^~~~~~~~~~~~~~~
+      |                |
+      |                int
+In file included from ..\src\lesson7.c:2:
+C:/msys/mingw64/include/stdio.h:368:25: note: expected 'const char *' but argument is of type 'int'
+  368 | int printf (const char *__format, ...)
+      |             ~~~~~~~~~~~~^~~~~~~~
+gcc -o lesson7.exe "src\\lesson7.o" 
+17:04:38 **** Incremental Build of configuration Debug for project lesson7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson7.o" "..\\src\\lesson7.c" 
+..\src\lesson7.c: In function 'main':
+..\src\lesson7.c:108:16: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+  108 |         printf(carpanlar(sayi));
+      |                ^~~~~~~~~~~~~~~
+      |                |
+      |                int
+In file included from ..\src\lesson7.c:2:
+C:/msys/mingw64/include/stdio.h:368:25: note: expected 'const char *' but argument is of type 'int'
+  368 | int printf (const char *__format, ...)
+      |             ~~~~~~~~~~~~^~~~~~~~
+..\src\lesson7.c: In function 'carpanlar':
+..\src\lesson7.c:102:16: warning: 'deger' is used uninitialized [-Wuninitialized]
+  102 |         return deger;
+      |                ^~~~~
+..\src\lesson7.c:95:13: note: 'deger' was declared here
+   95 |         int deger,sum =0;
+      |             ^~~~~
+gcc -o lesson7.exe "src\\lesson7.o" 
+17:06:43 **** Incremental Build of configuration Debug for project lesson7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson7.o" "..\\src\\lesson7.c" 
+..\src\lesson7.c: In function 'carpanlar':
+..\src\lesson7.c:95:13: warning: unused variable 'deger' [-Wunused-variable]
+   95 |         int deger =0;
+      |             ^~~~~
+..\src\lesson7.c: In function 'main':
+..\src\lesson7.c:109:16: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+  109 |         printf(carpanlar(sayi));
+      |                ^~~~~~~~~~~~~~~
+      |                |
+      |                int
+In file included from ..\src\lesson7.c:2:
+C:/msys/mingw64/include/stdio.h:368:25: note: expected 'const char *' but argument is of type 'int'
+  368 | int printf (const char *__format, ...)
+      |             ~~~~~~~~~~~~^~~~~~~~
+..\src\lesson7.c: In function 'carpanlar':
+..\src\lesson7.c:104:1: warning: control reaches end of non-void function [-Wreturn-type]
+  104 | }
+      | ^
+gcc -o lesson7.exe "src\\lesson7.o" 
+Info: Nothing to build for lesson7
+17:06:50 **** Incremental Build of configuration Debug for project lesson7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson7.o" "..\\src\\lesson7.c" 
+..\src\lesson7.c: In function 'carpanlar':
+..\src\lesson7.c:95:13: warning: unused variable 'deger' [-Wunused-variable]
+   95 |         int deger =0;
+      |             ^~~~~
+..\src\lesson7.c: In function 'main':
+..\src\lesson7.c:108:16: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+  108 |         printf(carpanlar(sayi));
+      |                ^~~~~~~~~~~~~~~
+      |                |
+      |                int
+In file included from ..\src\lesson7.c:2:
+C:/msys/mingw64/include/stdio.h:368:25: note: expected 'const char *' but argument is of type 'int'
+  368 | int printf (const char *__format, ...)
+      |             ~~~~~~~~~~~~^~~~~~~~
+..\src\lesson7.c: In function 'carpanlar':
+..\src\lesson7.c:103:1: warning: control reaches end of non-void function [-Wreturn-type]
+  103 | }
+      | ^
+gcc -o lesson7.exe "src\\lesson7.o" 
+17:07:13 **** Incremental Build of configuration Debug for project lesson7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson7.o" "..\\src\\lesson7.c" 
+..\src\lesson7.c: In function 'carpanlar':
+..\src\lesson7.c:95:13: warning: unused variable 'deger' [-Wunused-variable]
+   95 |         int deger =0;
+      |             ^~~~~
+..\src\lesson7.c: In function 'main':
+..\src\lesson7.c:109:16: warning: passing argument 1 of 'printf' makes pointer from integer without a cast [-Wint-conversion]
+  109 |         printf(carpanlar(sayi));
+      |                ^~~~~~~~~~~~~~~
+      |                |
+      |                int
+In file included from ..\src\lesson7.c:2:
+C:/msys/mingw64/include/stdio.h:368:25: note: expected 'const char *' but argument is of type 'int'
+  368 | int printf (const char *__format, ...)
+      |             ~~~~~~~~~~~~^~~~~~~~
+..\src\lesson7.c: In function 'carpanlar':
+..\src\lesson7.c:104:1: warning: control reaches end of non-void function [-Wreturn-type]
+  104 | }
+      | ^
+gcc -o lesson7.exe "src\\lesson7.o" 
+17:53:30 **** Incremental Build of configuration Debug for project lesson7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson7.o" "..\\src\\lesson7.c" 
+gcc -o lesson7.exe "src\\lesson7.o" 
+17:59:07 **** Incremental Build of configuration Debug for project lesson7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson7.o" "..\\src\\lesson7.c" 
+..\src\lesson7.c: In function 'main':
+..\src\lesson7.c:178:24: warning: statement with no effect [-Wunused-value]
+  178 |         for(digit_count>0;digit_count--;){
+      |             ~~~~~~~~~~~^~
+..\src\lesson7.c:179:25: warning: implicit declaration of function 'pow' [-Wimplicit-function-declaration]
+  179 |             int bolum = pow(10,digit_count);
+      |                         ^~~
+..\src\lesson7.c:4:1: note: include '<math.h>' or provide a declaration of 'pow'
+    3 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    4 | /*
+..\src\lesson7.c:179:25: warning: incompatible implicit declaration of built-in function 'pow' [-Wbuiltin-declaration-mismatch]
+  179 |             int bolum = pow(10,digit_count);
+      |                         ^~~
+..\src\lesson7.c:179:25: note: include '<math.h>' or provide a declaration of 'pow'
+gcc -o lesson7.exe "src\\lesson7.o" 
+Info: Nothing to build for lesson7
+Info: Nothing to build for lesson7
+Info: Nothing to build for lesson7
+07:48:27 **** Incremental Build of configuration Debug for project lesson6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson6.o" "..\\src\\lesson6.c" 
+..\src\lesson6.c: In function 'main':
+..\src\lesson6.c:114:23: warning: implicit declaration of function 'pow' [-Wimplicit-function-declaration]
+  114 |         printf("\n%d",pow(2,3));//
+      |                       ^~~
+..\src\lesson6.c:4:1: note: include '<math.h>' or provide a declaration of 'pow'
+    3 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    4 | 
+..\src\lesson6.c:114:23: warning: incompatible implicit declaration of built-in function 'pow' [-Wbuiltin-declaration-mismatch]
+  114 |         printf("\n%d",pow(2,3));//
+      |                       ^~~
+..\src\lesson6.c:114:23: note: include '<math.h>' or provide a declaration of 'pow'
+..\src\lesson6.c:114:20: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  114 |         printf("\n%d",pow(2,3));//
+      |                   ~^  ~~~~~~~~
+      |                    |  |
+      |                    |  double
+      |                    int
+      |                   %f
+gcc -o lesson6.exe "src\\lesson6.o" 
+Info: Nothing to build for lesson6
+Info: Nothing to build for lesson6
+Info: Nothing to build for lesson6
+07:48:56 **** Incremental Build of configuration Debug for project lesson6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson6.o" "..\\src\\lesson6.c" 
+..\src\lesson6.c: In function 'main':
+..\src\lesson6.c:114:23: warning: implicit declaration of function 'pow' [-Wimplicit-function-declaration]
+  114 |         printf("\n%f",pow(2,3));
+      |                       ^~~
+..\src\lesson6.c:4:1: note: include '<math.h>' or provide a declaration of 'pow'
+    3 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    4 | 
+..\src\lesson6.c:114:23: warning: incompatible implicit declaration of built-in function 'pow' [-Wbuiltin-declaration-mismatch]
+  114 |         printf("\n%f",pow(2,3));
+      |                       ^~~
+..\src\lesson6.c:114:23: note: include '<math.h>' or provide a declaration of 'pow'
+gcc -o lesson6.exe "src\\lesson6.o" 
+07:50:06 **** Incremental Build of configuration Debug for project lesson6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson6.o" "..\\src\\lesson6.c" 
+..\src\lesson6.c: In function 'main':
+..\src\lesson6.c:114:21: warning: implicit declaration of function 'pow' [-Wimplicit-function-declaration]
+  114 |         printf("%f",pow(2,3));
+      |                     ^~~
+..\src\lesson6.c:4:1: note: include '<math.h>' or provide a declaration of 'pow'
+    3 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    4 | 
+..\src\lesson6.c:114:21: warning: incompatible implicit declaration of built-in function 'pow' [-Wbuiltin-declaration-mismatch]
+  114 |         printf("%f",pow(2,3));
+      |                     ^~~
+..\src\lesson6.c:114:21: note: include '<math.h>' or provide a declaration of 'pow'
+gcc -o lesson6.exe "src\\lesson6.o" 
+07:50:11 **** Incremental Build of configuration Debug for project lesson6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson6.o" "..\\src\\lesson6.c" 
+..\src\lesson6.c: In function 'main':
+..\src\lesson6.c:114:21: warning: implicit declaration of function 'pow' [-Wimplicit-function-declaration]
+  114 |         printf("%d",pow(2,3));
+      |                     ^~~
+..\src\lesson6.c:4:1: note: include '<math.h>' or provide a declaration of 'pow'
+    3 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    4 | 
+..\src\lesson6.c:114:21: warning: incompatible implicit declaration of built-in function 'pow' [-Wbuiltin-declaration-mismatch]
+  114 |         printf("%d",pow(2,3));
+      |                     ^~~
+..\src\lesson6.c:114:21: note: include '<math.h>' or provide a declaration of 'pow'
+..\src\lesson6.c:114:18: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  114 |         printf("%d",pow(2,3));
+      |                 ~^  ~~~~~~~~
+      |                  |  |
+      |                  |  double
+      |                  int
+      |                 %f
+gcc -o lesson6.exe "src\\lesson6.o" 
+07:50:17 **** Incremental Build of configuration Debug for project lesson6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson6.o" "..\\src\\lesson6.c" 
+..\src\lesson6.c: In function 'main':
+..\src\lesson6.c:114:21: warning: implicit declaration of function 'pow' [-Wimplicit-function-declaration]
+  114 |         printf("%f",pow(2,3));
+      |                     ^~~
+..\src\lesson6.c:4:1: note: include '<math.h>' or provide a declaration of 'pow'
+    3 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    4 | 
+..\src\lesson6.c:114:21: warning: incompatible implicit declaration of built-in function 'pow' [-Wbuiltin-declaration-mismatch]
+  114 |         printf("%f",pow(2,3));
+      |                     ^~~
+..\src\lesson6.c:114:21: note: include '<math.h>' or provide a declaration of 'pow'
+gcc -o lesson6.exe "src\\lesson6.o" 
+07:52:45 **** Incremental Build of configuration Debug for project lesson6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson6.o" "..\\src\\lesson6.c" 
+gcc -o lesson6.exe "src\\lesson6.o" 
+07:52:51 **** Incremental Build of configuration Debug for project lesson6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson6.o" "..\\src\\lesson6.c" 
+gcc -o lesson6.exe "src\\lesson6.o" 
+Info: Nothing to build for lesson6
+Info: Nothing to build for lesson6
+Info: Nothing to build for lesson6
+Info: Nothing to build for lesson6
+Info: Nothing to build for lesson6
+Info: Nothing to build for lesson6
+08:19:39 **** Incremental Build of configuration Debug for project lesson7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson7.o" "..\\src\\lesson7.c" 
+gcc -o lesson7.exe "src\\lesson7.o" 
+08:19:44 **** Incremental Build of configuration Debug for project lesson7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson7.o" "..\\src\\lesson7.c" 
+gcc -o lesson7.exe "src\\lesson7.o" 
+08:19:49 **** Incremental Build of configuration Debug for project lesson7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson7.o" "..\\src\\lesson7.c" 
+..\src\lesson7.c: In function 'main':
+..\src\lesson7.c:162:19: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  162 |          printf("%d",bolum);
+      |                  ~^  ~~~~~
+      |                   |  |
+      |                   |  double
+      |                   int
+      |                  %f
+gcc -o lesson7.exe "src\\lesson7.o" 
+08:19:56 **** Incremental Build of configuration Debug for project lesson7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson7.o" "..\\src\\lesson7.c" 
+gcc -o lesson7.exe "src\\lesson7.o" 

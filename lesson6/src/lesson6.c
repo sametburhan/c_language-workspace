@@ -90,7 +90,7 @@ int main(){
 		if(x<2){
 			isprime=0;
 		}if(isprime==1){
-			printf("%d",x);
+			printf("%d ",x);
 		}//
 	}
 	-------------------------------------------------*///kendim deneyeceğim
@@ -111,7 +111,7 @@ int main(){
 		}
 		printf("%d ile %d arasında %d tane asal sayı vardır",k,l,s);
 		-------------------------------------------------*/
-	printf("\n%f",pow(2,3));
+	printf("%d",3250/1000);
 
 	return 0;
 }
