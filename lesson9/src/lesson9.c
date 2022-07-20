@@ -182,5 +182,30 @@ int main() {
 
 	return 0;
 }------------------------------------------------------------*/
+int main() {
+	int A,i,j;
 
+	scanf("%d", &A);
+
+	int arr[A];
+
+	for(i = 0 ; i < A ; i++){
+		scanf("%d", &arr[i]);
+    }
+
+	for(i = 0 ; i < A ; i++){
+		for(j = 0 ; j < A-1 ; j++){
+			if(arr[j] > arr[j+1]){
+				int temp = arr[j];//önbelleğe alınıyor
+				arr[j] = arr[j+1];//yer değiştiriliyor
+				arr[j+1] = temp;//ön bellekteki sonraki değere aktarılıyor
+			}
+		}
+	}
+
+	for(i = 0; i < A; i++){
+		printf("%d ", arr[i]);
+}
+	return 0;
+}
 

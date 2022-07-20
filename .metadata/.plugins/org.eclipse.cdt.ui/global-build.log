@@ -819,3 +819,12 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson9.o" "..\\src\\lesson9.c"
   209 |         int k=0,i=0,t=0;
       |                     ^
 gcc -o lesson9.exe "src\\lesson9.o" 
+16:06:36 **** Rebuild of configuration Debug for project lesson10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson10.o" "..\\src\\lesson10.c" 
+gcc -o lesson10.exe "src\\lesson10.o" 
+Info: Nothing to build for lesson10
+16:07:31 **** Incremental Build of configuration Debug for project lesson10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson10.o" "..\\src\\lesson10.c" 
+gcc -o lesson10.exe "src\\lesson10.o" 
