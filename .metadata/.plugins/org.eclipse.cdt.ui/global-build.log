@@ -335,3 +335,407 @@ Info: Internal Builder is used for build
 gcc -O3 -Wall -c -fmessage-length=0 -o "src\\lesson7.o" "..\\src\\lesson7.c" 
 gcc -o lesson7.exe "src\\lesson7.o" 
 Info: Nothing to build for lesson7
+10:30:47 **** Rebuild of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+gcc -o lesson8.exe "src\\lesson8.o" 
+Info: Nothing to build for lesson8
+Info: Nothing to build for lesson8
+Info: Nothing to build for lesson8
+Info: Nothing to build for lesson8
+Info: Nothing to build for lesson8
+Info: Nothing to build for lesson8
+Info: Nothing to build for lesson8
+10:37:58 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+..\src\lesson8.c: In function 'alter':
+..\src\lesson8.c:9:22: error: expected ')' before ';' token
+    9 |                 (*x--;)
+      |                 ~    ^
+      |                      )
+..\src\lesson8.c:9:18: warning: value computed is not used [-Wunused-value]
+    9 |                 (*x--;)
+      |                 ~^~~~~
+..\src\lesson8.c:9:24: error: expected ';' before '}' token
+    9 |                 (*x--;)
+      |                        ^
+      |                        ;
+   10 |         }
+      |         ~               
+10:38:23 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+gcc -o lesson8.exe "src\\lesson8.o" 
+Info: Nothing to build for lesson8
+10:41:37 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+gcc -o lesson8.exe "src\\lesson8.o" 
+10:45:50 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+..\src\lesson8.c: In function 'main':
+..\src\lesson8.c:38:9: warning: implicit declaration of function 'divedeWithRemainder' [-Wimplicit-function-declaration]
+   38 |         divedeWithRemainder(
+      |         ^~~~~~~~~~~~~~~~~~~
+gcc -o lesson8.exe "src\\lesson8.o" 
+C:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: src\lesson8.o: in function `main':
+C:\Users\samet\eclipse-workspace\lesson8\Debug/../src/lesson8.c:38: undefined reference to `divedeWithRemainder'
+collect2.exe: error: ld returned 1 exit status
+10:46:02 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+..\src\lesson8.c: In function 'main':
+..\src\lesson8.c:38:9: warning: implicit declaration of function 'divedeWith'; did you mean 'divideWith'? [-Wimplicit-function-declaration]
+   38 |         divedeWith(
+      |         ^~~~~~~~~~
+      |         divideWith
+gcc -o lesson8.exe "src\\lesson8.o" 
+C:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: src\lesson8.o: in function `main':
+C:\Users\samet\eclipse-workspace\lesson8\Debug/../src/lesson8.c:38: undefined reference to `divedeWith'
+collect2.exe: error: ld returned 1 exit status
+10:46:22 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+gcc -o lesson8.exe "src\\lesson8.o" 
+Info: Nothing to build for lesson8
+Info: Nothing to build for lesson8
+Info: Nothing to build for lesson8
+Info: Nothing to build for lesson8
+Info: Nothing to build for lesson8
+Info: Nothing to build for lesson8
+Info: Nothing to build for lesson8
+Info: Nothing to build for lesson8
+Info: Nothing to build for lesson8
+Info: Nothing to build for lesson8
+Info: Nothing to build for lesson8
+Info: Nothing to build for lesson8
+Info: Nothing to build for lesson8
+Info: Nothing to build for lesson8
+Info: Nothing to build for lesson8
+Info: Nothing to build for lesson8
+Info: Nothing to build for lesson8
+Info: Nothing to build for lesson8
+Info: Nothing to build for lesson8
+11:02:11 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+..\src\lesson8.c: In function 'main':
+..\src\lesson8.c:73:1: warning: implicit declaration of function 'powewred'; did you mean 'powered'? [-Wimplicit-function-declaration]
+   73 | powewred(sum,a,b,&sum_p1,&sum_p2);
+      | ^~~~~~~~
+      | powered
+gcc -o lesson8.exe "src\\lesson8.o" 
+C:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: src\lesson8.o: in function `main':
+C:\Users\samet\eclipse-workspace\lesson8\Debug/../src/lesson8.c:73: undefined reference to `powewred'
+collect2.exe: error: ld returned 1 exit status
+11:02:48 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+gcc -o lesson8.exe "src\\lesson8.o" 
+11:13:26 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+..\src\lesson8.c: In function 'main':
+..\src\lesson8.c:107:16: warning: too many arguments for format [-Wformat-extra-args]
+  107 |         printf("%.2f",re,im);
+      |                ^~~~~~
+gcc -o lesson8.exe "src\\lesson8.o" 
+11:15:46 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+gcc -o lesson8.exe "src\\lesson8.o" 
+11:22:20 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+..\src\lesson8.c: In function 'main':
+..\src\lesson8.c:109:18: warning: passing argument 3 of 'poww' makes pointer from integer without a cast [-Wint-conversion]
+  109 |         poww(a,p,*res);
+      |                  ^~~~
+      |                  |
+      |                  int
+..\src\lesson8.c:77:28: note: expected 'int *' but argument is of type 'int'
+   77 | void poww(int a,int p,int *res){
+      |                       ~~~~~^~~
+..\src\lesson8.c:109:18: warning: 'res' is used uninitialized [-Wuninitialized]
+  109 |         poww(a,p,*res);
+      |                  ^~~~
+..\src\lesson8.c:103:14: note: 'res' was declared here
+  103 |         int *res;
+      |              ^~~
+gcc -o lesson8.exe "src\\lesson8.o" 
+11:22:43 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+..\src\lesson8.c: In function 'main':
+..\src\lesson8.c:109:18: warning: passing argument 3 of 'poww' makes pointer from integer without a cast [-Wint-conversion]
+  109 |         poww(a,p,res);
+      |                  ^~~
+      |                  |
+      |                  int
+..\src\lesson8.c:77:28: note: expected 'int *' but argument is of type 'int'
+   77 | void poww(int a,int p,int *res){
+      |                       ~~~~~^~~
+..\src\lesson8.c:109:9: warning: 'res' is used uninitialized [-Wuninitialized]
+  109 |         poww(a,p,res);
+      |         ^~~~~~~~~~~~~
+..\src\lesson8.c:103:13: note: 'res' was declared here
+  103 |         int res;
+      |             ^~~
+gcc -o lesson8.exe "src\\lesson8.o" 
+11:23:15 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+gcc -o lesson8.exe "src\\lesson8.o" 
+Info: Nothing to build for lesson8
+11:28:18 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+..\src\lesson8.c:114:6: warning: conflicting types for built-in function 'pow'; expected 'double(double,  double)' [-Wbuiltin-declaration-mismatch]
+  114 | void pow(int a,int b){
+      |      ^~~
+..\src\lesson8.c:4:1: note: 'pow' is declared in header '<math.h>'
+    3 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    4 | /*
+gcc -o lesson8.exe "src\\lesson8.o" 
+Info: Nothing to build for lesson8
+11:28:56 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+..\src\lesson8.c:114:6: warning: conflicting types for built-in function 'pow'; expected 'double(double,  double)' [-Wbuiltin-declaration-mismatch]
+  114 | void pow(int a,int b){
+      |      ^~~
+..\src\lesson8.c:4:1: note: 'pow' is declared in header '<math.h>'
+    3 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    4 | /*
+gcc -o lesson8.exe "src\\lesson8.o" 
+11:33:00 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+..\src\lesson8.c:114:6: warning: conflicting types for built-in function 'pow'; expected 'double(double,  double)' [-Wbuiltin-declaration-mismatch]
+  114 | void pow(int a,int b){
+      |      ^~~
+..\src\lesson8.c:4:1: note: 'pow' is declared in header '<math.h>'
+    3 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    4 | /*
+gcc -o lesson8.exe "src\\lesson8.o" 
+Info: Nothing to build for lesson8
+11:33:45 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+..\src\lesson8.c:114:6: warning: conflicting types for built-in function 'pow'; expected 'double(double,  double)' [-Wbuiltin-declaration-mismatch]
+  114 | void pow(int a,int b){
+      |      ^~~
+..\src\lesson8.c:4:1: note: 'pow' is declared in header '<math.h>'
+    3 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    4 | /*
+gcc -o lesson8.exe "src\\lesson8.o" 
+11:33:56 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+..\src\lesson8.c:114:6: warning: conflicting types for built-in function 'pow'; expected 'double(double,  double)' [-Wbuiltin-declaration-mismatch]
+  114 | void pow(int a,int b){
+      |      ^~~
+..\src\lesson8.c:4:1: note: 'pow' is declared in header '<math.h>'
+    3 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    4 | /*
+gcc -o lesson8.exe "src\\lesson8.o" 
+Info: Nothing to build for lesson8
+11:34:05 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+..\src\lesson8.c:114:6: warning: conflicting types for built-in function 'pow'; expected 'double(double,  double)' [-Wbuiltin-declaration-mismatch]
+  114 | void pow(int a,int b){
+      |      ^~~
+..\src\lesson8.c:4:1: note: 'pow' is declared in header '<math.h>'
+    3 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    4 | /*
+gcc -o lesson8.exe "src\\lesson8.o" 
+11:34:50 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+..\src\lesson8.c:114:6: warning: conflicting types for built-in function 'pow'; expected 'double(double,  double)' [-Wbuiltin-declaration-mismatch]
+  114 | void pow(int a,int b){
+      |      ^~~
+..\src\lesson8.c:4:1: note: 'pow' is declared in header '<math.h>'
+    3 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    4 | /*
+gcc -o lesson8.exe "src\\lesson8.o" 
+11:35:12 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+..\src\lesson8.c:114:6: warning: conflicting types for built-in function 'pow'; expected 'double(double,  double)' [-Wbuiltin-declaration-mismatch]
+  114 | void pow(int a,int b){
+      |      ^~~
+..\src\lesson8.c:4:1: note: 'pow' is declared in header '<math.h>'
+    3 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    4 | /*
+gcc -o lesson8.exe "src\\lesson8.o" 
+11:35:55 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+..\src\lesson8.c:114:6: warning: conflicting types for built-in function 'pow'; expected 'double(double,  double)' [-Wbuiltin-declaration-mismatch]
+  114 | void pow(int a,int b){
+      |      ^~~
+..\src\lesson8.c:4:1: note: 'pow' is declared in header '<math.h>'
+    3 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    4 | /*
+gcc -o lesson8.exe "src\\lesson8.o" 
+11:36:11 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+..\src\lesson8.c:114:6: warning: conflicting types for built-in function 'pow'; expected 'double(double,  double)' [-Wbuiltin-declaration-mismatch]
+  114 | void pow(int a,int b){
+      |      ^~~
+..\src\lesson8.c:4:1: note: 'pow' is declared in header '<math.h>'
+    3 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    4 | /*
+gcc -o lesson8.exe "src\\lesson8.o" 
+11:41:28 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+gcc -o lesson8.exe "src\\lesson8.o" 
+Info: Nothing to build for lesson8
+11:44:50 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+gcc -o lesson8.exe "src\\lesson8.o" 
+11:46:40 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+gcc -o lesson8.exe "src\\lesson8.o" 
+12:41:57 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+..\src\lesson8.c:113:67: error: expected identifier or '(' before '/' token
+  113 | }---------------------------------------------------------------*//clearly poww
+      |                                                                   ^
+..\src\lesson8.c: In function 'main':
+..\src\lesson8.c:125:9: warning: implicit declaration of function 'pow' [-Wimplicit-function-declaration]
+  125 |         pow(a,b);//void fonksiyonlar doğrudan çağırılabilirler
+      |         ^~~
+..\src\lesson8.c:4:1: note: include '<math.h>' or provide a declaration of 'pow'
+    3 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    4 | /*
+..\src\lesson8.c:125:9: warning: incompatible implicit declaration of built-in function 'pow' [-Wbuiltin-declaration-mismatch]
+  125 |         pow(a,b);//void fonksiyonlar doğrudan çağırılabilirler
+      |         ^~~
+..\src\lesson8.c:125:9: note: include '<math.h>' or provide a declaration of 'pow'
+12:42:12 **** Incremental Build of configuration Debug for project lesson8 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson8.o" "..\\src\\lesson8.c" 
+..\src\lesson8.c:114:6: warning: conflicting types for built-in function 'pow'; expected 'double(double,  double)' [-Wbuiltin-declaration-mismatch]
+  114 | void pow(int a,int b){
+      |      ^~~
+..\src\lesson8.c:4:1: note: 'pow' is declared in header '<math.h>'
+    3 | #include <stdlib.h>
+  +++ |+#include <math.h>
+    4 | /*
+gcc -o lesson8.exe "src\\lesson8.o" 
+12:43:45 **** Rebuild of configuration Debug for project lesson9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson9.o" "..\\src\\lesson9.c" 
+gcc -o lesson9.exe "src\\lesson9.o" 
+Info: Nothing to build for lesson9
+Info: Nothing to build for lesson8
+Info: Nothing to build for lesson9
+Info: Nothing to build for lesson9
+12:59:57 **** Incremental Build of configuration Debug for project lesson9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson9.o" "..\\src\\lesson9.c" 
+..\src\lesson9.c: In function 'main':
+..\src\lesson9.c:9:5: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+    9 |     for(i=0;i<k;i++);
+      |     ^~~
+..\src\lesson9.c:10:5: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'for'
+   10 |     {
+      |     ^
+gcc -o lesson9.exe "src\\lesson9.o" 
+13:02:13 **** Incremental Build of configuration Debug for project lesson9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson9.o" "..\\src\\lesson9.c" 
+gcc -o lesson9.exe "src\\lesson9.o" 
+13:24:27 **** Incremental Build of configuration Debug for project lesson9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson9.o" "..\\src\\lesson9.c" 
+gcc -o lesson9.exe "src\\lesson9.o" 
+13:25:12 **** Incremental Build of configuration Debug for project lesson9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson9.o" "..\\src\\lesson9.c" 
+gcc -o lesson9.exe "src\\lesson9.o" 
+13:25:33 **** Incremental Build of configuration Debug for project lesson9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson9.o" "..\\src\\lesson9.c" 
+gcc -o lesson9.exe "src\\lesson9.o" 
+13:29:18 **** Incremental Build of configuration Debug for project lesson9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson9.o" "..\\src\\lesson9.c" 
+..\src\lesson9.c: In function 'main':
+..\src\lesson9.c:25:19: error: expected '=', ',', ';', 'asm' or '__attribute__' before numeric constant
+   25 |         float sum 0,avg,var =0;
+      |                   ^
+..\src\lesson9.c:25:21: error: 'avg' undeclared (first use in this function)
+   25 |         float sum 0,avg,var =0;
+      |                     ^~~
+..\src\lesson9.c:25:21: note: each undeclared identifier is reported only once for each function it appears in
+..\src\lesson9.c:25:20: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   25 |         float sum 0,avg,var =0;
+      |                    ^
+..\src\lesson9.c:25:25: error: 'var' undeclared (first use in this function)
+   25 |         float sum 0,avg,var =0;
+      |                         ^~~
+..\src\lesson9.c:25:24: warning: left-hand operand of comma expression has no effect [-Wunused-value]
+   25 |         float sum 0,avg,var =0;
+      |                        ^
+..\src\lesson9.c:27:17: error: 'sum' undeclared (first use in this function)
+   27 |                 sum+=arr[i];
+      |                 ^~~
+13:30:08 **** Incremental Build of configuration Debug for project lesson9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson9.o" "..\\src\\lesson9.c" 
+..\src\lesson9.c: In function 'main':
+..\src\lesson9.c:25:19: error: expected '=', ',', ';', 'asm' or '__attribute__' before numeric constant
+   25 |         float sum 0;
+      |                   ^
+..\src\lesson9.c:25:19: warning: statement with no effect [-Wunused-value]
+..\src\lesson9.c:29:17: error: 'sum' undeclared (first use in this function)
+   29 |                 sum+=arr[i];
+      |                 ^~~
+..\src\lesson9.c:29:17: note: each undeclared identifier is reported only once for each function it appears in
+13:31:45 **** Incremental Build of configuration Debug for project lesson9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson9.o" "..\\src\\lesson9.c" 
+gcc -o lesson9.exe "src\\lesson9.o" 
+13:35:01 **** Incremental Build of configuration Debug for project lesson9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson9.o" "..\\src\\lesson9.c" 
+gcc -o lesson9.exe "src\\lesson9.o" 
+13:35:27 **** Incremental Build of configuration Debug for project lesson9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson9.o" "..\\src\\lesson9.c" 
+gcc -o lesson9.exe "src\\lesson9.o" 
+13:36:17 **** Incremental Build of configuration Debug for project lesson9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson9.o" "..\\src\\lesson9.c" 
+gcc -o lesson9.exe "src\\lesson9.o" 
+13:41:10 **** Incremental Build of configuration Debug for project lesson9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson9.o" "..\\src\\lesson9.c" 
+gcc -o lesson9.exe "src\\lesson9.o" 
+Info: Nothing to build for lesson9
+13:41:28 **** Incremental Build of configuration Debug for project lesson9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson9.o" "..\\src\\lesson9.c" 
+gcc -o lesson9.exe "src\\lesson9.o" 

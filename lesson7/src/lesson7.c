@@ -128,34 +128,7 @@ int asal(int deger){
 		}
 	}
 	return asal_mi;
-}------------------------------------------------------------------------------------
-int is_prime(int x){
-	int i;
-	int isPrime = 1;
-	if(x < 2)
-		isPrime = 0;
-	for(i = 2 ; i < x ; i++){
-		if(x % i == 0){
-			isPrime = 0;
-			break;
-		}
-	}
-	return isPrime;
-}
 
-void prime_sum(int x){
-	for(int i = 2 ; i <= x/2 ; i++){
-		if(is_prime(i) && is_prime(x-i)){
-			printf("%d %d\n", i, x-i);
-		}
-	}
-}
-
-int main() {
-	int x;
-	scanf("%d", &x);
-	prime_sum(x);
-	return 0;
 }------------------------------------------------------------------------------------//basamak toplama
     int main() {
     int x;
@@ -224,7 +197,13 @@ int main() {
 	printf("%d", fibonacci(x));
 
 	return 0;
-}------------------------------------------------------------------------------------*/
+}------------------------------------------------------------------------------------
+int main()
+{
+    int value = 25;
+    int *pointer = &value;
+    printf("%ld\n", pointer);  // long int
+}------------------------------------------------------------------------------------*///zor bir örnek tekrar edilebilir
 int is_prime(int x){
 	int i;
 	int isPrime = 1;
@@ -253,3 +232,6 @@ int main() {
 	prime_sum(x);
 	return 0;
 }
+
+
+
