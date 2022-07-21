@@ -1129,3 +1129,50 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson12.o" "..\\src\\lesson12.
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson12.o" "..\\src\\lesson12.c" 
 gcc -o lesson12.exe "src\\lesson12.o" 
+16:12:13 **** Incremental Build of configuration Debug for project lesson12 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson12.o" "..\\src\\lesson12.c" 
+gcc -o lesson12.exe "src\\lesson12.o" 
+Info: Nothing to build for lesson12
+Info: Nothing to build for lesson12
+16:34:47 **** Incremental Build of configuration Debug for project lesson12 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson12.o" "..\\src\\lesson12.c" 
+..\src\lesson12.c: In function 'kontrol':
+..\src\lesson12.c:61:25: warning: 'sizeof' on array function parameter 'str' will return size of 'char *' [-Wsizeof-array-argument]
+   61 |         for(i=0;i<sizeof(str)-2;i++){
+      |                         ^
+..\src\lesson12.c:58:18: note: declared here
+   58 | int kontrol(char str[]){
+      |             ~~~~~^~~~~
+..\src\lesson12.c:66:16: warning: returning 'char *' from a function with return type 'int' makes integer from pointer without a cast [-Wint-conversion]
+   66 |         return result;
+      |                ^~~~~~
+..\src\lesson12.c:59:15: warning: unused variable 'j' [-Wunused-variable]
+   59 |         int i,j;
+      |               ^
+..\src\lesson12.c: In function 'sonuc':
+..\src\lesson12.c:69:14: warning: passing argument 1 of 'puts' makes pointer from integer without a cast [-Wint-conversion]
+   69 |         puts(kontrol(str));
+      |              ^~~~~~~~~~~~
+      |              |
+      |              int
+In file included from ..\src\lesson12.c:2:
+C:/msys/mingw64/include/stdio.h:703:32: note: expected 'const char *' but argument is of type 'int'
+  703 |   int __cdecl puts(const char *_Str);
+      |                    ~~~~~~~~~~~~^~~~
+..\src\lesson12.c:70:20: warning: format '%d' expects argument of type 'int', but argument 2 has type 'char *' [-Wformat=]
+   70 |         printf("\n%d",str);
+      |                   ~^  ~~~
+      |                    |  |
+      |                    |  char *
+      |                    int
+      |                   %s
+..\src\lesson12.c: In function 'main':
+..\src\lesson12.c:74:9: warning: 'a' is used uninitialized [-Wuninitialized]
+   74 |         char str[a];
+      |         ^~~~
+..\src\lesson12.c:73:13: note: 'a' declared here
+   73 |         int a;
+      |             ^
+gcc -o lesson12.exe "src\\lesson12.o" 
