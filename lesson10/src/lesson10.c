@@ -44,7 +44,7 @@ int main(){//çift sayıları gösterme ve dizi içerisinden silme
         }
     }
     return 0;
-}---------------------------------------------------------------*///küçükten->büyüğe
+}---------------------------------------------------------------//küçükten->büyüğe
 int main(void) {
 	int N, i, j;
 	scanf("%d",&N);
@@ -70,11 +70,131 @@ int main(void) {
 
 
 	return 0;
+}---------------------------------------------------------------//dönülecek
+int main(){
+	int r,c,i=0,j;//r = 2 c = 3
+	scanf("%d %d",&r,&c);
+	int array[c*r];
+	for(i=0;i<c*r;i++){
+		scanf("%d",&array[i]);//1 2 3 4 5 6
+	}
+
+	    for(j=0;j<r;j++){
+
+	        if(j*c<c*r){
+		        while(i<c+(c*j)){
+		            printf("%d",array[i]);
+		            i++;
+		        }
+	        }
+		    printf("\n");
+		}
+
+
+	return 0;
+}---------------------------------------------------------------
+int main(){
+	int r,c,i=0,j;//r = 2 c = 3
+	scanf("%d %d",&r,&c);
+	int array[r][c];
+	for(i=0;i<r;i++){
+	    for(j =0;j<c;j++){
+		scanf("%d",&array[i][j]);}
+	}
+
+	    for(i=0;i<r;i++){
+
+
+		        for(j = 0;j<c;j++){
+		            printf("%d",array[i][j]);
+
+		        }
+
+		    printf("\n");
+		}
+
+
+	return 0;
+}---------------------------------------------------------------
+void define(int k,int l,int arr[k][l]){
+	int i,j;
+	for(i=0;i<k;i++){
+		for(j=0;j<l;j++){
+			scanf("%d",&arr[i][j]);
+		}
+	}
+}
+void prnt(int k,int l,int arr[k][l]){
+	int i,j;
+		for(i=0;i<k;i++){
+			for(j=0;j<l;j++){
+				printf("%d",arr[i][j]);
+			}
+			printf("\n");
+			}
 }
 
+int main(){
+	int k,l;
+	scanf("%d %d", &k, &l);
+	int arr[k][l];
+	define(k,l,arr);
+	prnt(k,l,arr);
+	return 0;
+}---------------------------------------------------------------
+int main(void) {
+
+	int N, M;
+
+	scanf("%d %d", &N, &M);
+
+	int firstArr[N][M], secondArr[N][M], sum[N][M];
+    int i,j;
+    printf("first array;\n");
+	for(i=0;i<N;i++){
+	    for(j=0;j<M;j++){
+	        scanf("%d",&firstArr[i][j]);
+	    }
+	}
+	printf("second array;\n");
+	for(i=0;i<N;i++){
+	    for(j=0;j<M;j++){
+
+	        scanf("%d",&secondArr[i][j]);
+
+	    }
+	}
+	printf("sum of them\n");
+	for(i=0;i<N;i++){
+	    for(j=0;j<M;j++){
+	        printf("%d ",firstArr[i][j]+secondArr[i][j]);
+	    }
+	    printf("\n");
+	}
 
 
+	return 0;
+}---------------------------------------------------------------*/
+int main(void) {
+	int i,j;
+	int N;
+	scanf("%d",&N);
+	int array1[N][N];
+    for(i=0;i<N;i++){
+        for(j=0;j<N;j++){
+            scanf("%d",&array1[i][j]);
+        }
+    }int sum1=0;
+    for(i=0;i<N;i++){
+        sum1 +=array1[i][i];
 
+    }printf("primary diagonal sum %d\n",sum1);
+    int sum2=0;
+    for(i=N-1;i>=0;i--){
+        sum2 +=array1[i][i];
 
+    }printf("secondary diagonal sum %d",sum2);
 
+	return 0;
+}
 

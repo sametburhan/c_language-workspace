@@ -828,3 +828,304 @@ Info: Nothing to build for lesson10
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson10.o" "..\\src\\lesson10.c" 
 gcc -o lesson10.exe "src\\lesson10.o" 
+08:20:47 **** Rebuild of configuration Debug for project lesson10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson10.o" "..\\src\\lesson10.c" 
+..\src\lesson10.c: In function 'main':
+..\src\lesson10.c:76:20: warning: 'c' is used uninitialized [-Wuninitialized]
+   76 |         int array[c*r];
+      |                   ~^~
+..\src\lesson10.c:75:15: note: 'c' declared here
+   75 |         int r,c,i,j;
+      |               ^
+..\src\lesson10.c:76:20: warning: 'r' is used uninitialized [-Wuninitialized]
+   76 |         int array[c*r];
+      |                   ~^~
+..\src\lesson10.c:75:13: note: 'r' declared here
+   75 |         int r,c,i,j;
+      |             ^
+gcc -o lesson10.exe "src\\lesson10.o" 
+09:14:39 **** Incremental Build of configuration Debug for project lesson10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson10.o" "..\\src\\lesson10.c" 
+..\src\lesson10.c:119:23: error: unknown type name 'arr'
+  119 | void prnt(int k,int l,arr[k][l]){
+      |                       ^~~
+..\src\lesson10.c: In function 'main':
+..\src\lesson10.c:139:9: warning: implicit declaration of function 'prnt'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  139 |         prnt(k,l,arr);
+      |         ^~~~
+      |         printf
+09:15:03 **** Incremental Build of configuration Debug for project lesson10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson10.o" "..\\src\\lesson10.c" 
+..\src\lesson10.c:128:23: error: unknown type name 'arr'
+  128 | void prnt(int k,int l,arr[k][l]){
+      |                       ^~~
+..\src\lesson10.c: In function 'main':
+..\src\lesson10.c:140:9: warning: implicit declaration of function 'prnt'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  140 |         prnt(k,l,arr);
+      |         ^~~~
+      |         printf
+09:15:23 **** Incremental Build of configuration Debug for project lesson10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson10.o" "..\\src\\lesson10.c" 
+..\src\lesson10.c: In function 'main':
+..\src\lesson10.c:137:9: warning: 'l' is used uninitialized [-Wuninitialized]
+  137 |         int arr[k][l];
+      |         ^~~
+..\src\lesson10.c:136:15: note: 'l' was declared here
+  136 |         int k,l;
+      |               ^
+..\src\lesson10.c:137:9: warning: 'k' is used uninitialized [-Wuninitialized]
+  137 |         int arr[k][l];
+      |         ^~~
+..\src\lesson10.c:136:13: note: 'k' was declared here
+  136 |         int k,l;
+      |             ^
+gcc -o lesson10.exe "src\\lesson10.o" 
+Info: Nothing to build for lesson10
+09:17:40 **** Incremental Build of configuration Debug for project lesson10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson10.o" "..\\src\\lesson10.c" 
+gcc -o lesson10.exe "src\\lesson10.o" 
+09:18:28 **** Incremental Build of configuration Debug for project lesson10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson10.o" "..\\src\\lesson10.c" 
+gcc -o lesson10.exe "src\\lesson10.o" 
+09:19:07 **** Incremental Build of configuration Debug for project lesson10 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson10.o" "..\\src\\lesson10.c" 
+gcc -o lesson10.exe "src\\lesson10.o" 
+10:34:12 **** Rebuild of configuration Debug for project lesson11 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson11.o" "..\\src\\lesson11.c" 
+gcc -o lesson11.exe "src\\lesson11.o" 
+Info: Nothing to build for lesson11
+Info: Nothing to build for lesson11
+Info: Nothing to build for lesson11
+Info: Nothing to build for lesson11
+Info: Nothing to build for lesson11
+Info: Nothing to build for lesson11
+Info: Nothing to build for lesson11
+Info: Nothing to build for lesson11
+Info: Nothing to build for lesson11
+Info: Nothing to build for lesson11
+Info: Nothing to build for lesson11
+Info: Nothing to build for lesson11
+Info: Nothing to build for lesson11
+Info: Nothing to build for lesson11
+Info: Nothing to build for lesson11
+Info: Nothing to build for lesson11
+Info: Nothing to build for lesson11
+Info: Nothing to build for lesson11
+Info: Nothing to build for lesson11
+10:46:14 **** Incremental Build of configuration Debug for project lesson11 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson11.o" "..\\src\\lesson11.c" 
+gcc -o lesson11.exe "src\\lesson11.o" 
+Info: Nothing to build for lesson11
+Info: Nothing to build for lesson11
+Info: Nothing to build for lesson11
+10:46:58 **** Incremental Build of configuration Debug for project lesson11 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson11.o" "..\\src\\lesson11.c" 
+gcc -o lesson11.exe "src\\lesson11.o" 
+Info: Nothing to build for lesson11
+11:12:43 **** Incremental Build of configuration Debug for project lesson11 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson11.o" "..\\src\\lesson11.c" 
+..\src\lesson11.c: In function 'main':
+..\src\lesson11.c:16:10: error: conflicting types for 'c'; have 'char[5]'
+   16 |     char c[5] = "abcde";//bu string değişkeninde abcd ve \0 ile birlikte toplam 6 karakter vardır
+      |          ^
+..\src\lesson11.c:6:14: note: previous definition of 'c' with type 'char[9]'
+    6 |         char c[] = "c string";//string yapılar birer karaktere sahip olduğundan dolayı char
+      |              ^
+..\src\lesson11.c:16:10: warning: unused variable 'c' [-Wunused-variable]
+   16 |     char c[5] = "abcde";//bu string değişkeninde abcd ve \0 ile birlikte toplam 6 karakter vardır
+      |          ^
+11:24:30 **** Incremental Build of configuration Debug for project lesson11 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson11.o" "..\\src\\lesson11.c" 
+gcc -o lesson11.exe "src\\lesson11.o" 
+11:29:09 **** Incremental Build of configuration Debug for project lesson11 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson11.o" "..\\src\\lesson11.c" 
+..\src\lesson11.c: In function 'main':
+..\src\lesson11.c:48:20: warning: format '%d' expects argument of type 'int', but argument 2 has type 'size_t' {aka 'long long unsigned int'} [-Wformat=]
+   48 |           printf("%d",strlen(str1));
+      |                   ~^  ~~~~~~~~~~~~
+      |                    |  |
+      |                    |  size_t {aka long long unsigned int}
+      |                    int
+      |                   %lld
+..\src\lesson11.c:47:51: warning: unused variable 'str3' [-Wunused-variable]
+   47 |         char str1[] = "abcd", str2[] = "1234567", str3[] = "9874342";
+      |                                                   ^~~~
+..\src\lesson11.c:47:31: warning: unused variable 'str2' [-Wunused-variable]
+   47 |         char str1[] = "abcd", str2[] = "1234567", str3[] = "9874342";
+      |                               ^~~~
+gcc -o lesson11.exe "src\\lesson11.o" 
+11:36:38 **** Incremental Build of configuration Debug for project lesson11 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson11.o" "..\\src\\lesson11.c" 
+..\src\lesson11.c: In function 'main':
+..\src\lesson11.c:48:20: warning: format '%d' expects argument of type 'int', but argument 2 has type 'size_t' {aka 'long long unsigned int'} [-Wformat=]
+   48 |           printf("%d",strlen(str1));//bitiş kodunu dahil etmez \0
+      |                   ~^  ~~~~~~~~~~~~
+      |                    |  |
+      |                    |  size_t {aka long long unsigned int}
+      |                    int
+      |                   %lld
+..\src\lesson11.c:49:20: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   49 |           printf("%d",sizeof(str1));
+      |                   ~^  ~~~~~~~~~~~~
+      |                    |  |
+      |                    |  long long unsigned int
+      |                    int
+      |                   %lld
+..\src\lesson11.c:47:51: warning: unused variable 'str3' [-Wunused-variable]
+   47 |         char str1[] = "abcd", str2[] = "1234567", str3[] = "9874342";
+      |                                                   ^~~~
+..\src\lesson11.c:47:31: warning: unused variable 'str2' [-Wunused-variable]
+   47 |         char str1[] = "abcd", str2[] = "1234567", str3[] = "9874342";
+      |                               ^~~~
+gcc -o lesson11.exe "src\\lesson11.o" 
+11:36:49 **** Incremental Build of configuration Debug for project lesson11 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson11.o" "..\\src\\lesson11.c" 
+..\src\lesson11.c: In function 'main':
+..\src\lesson11.c:49:20: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   49 |           printf("%d",sizeof(str1));
+      |                   ~^  ~~~~~~~~~~~~
+      |                    |  |
+      |                    |  long long unsigned int
+      |                    int
+      |                   %lld
+..\src\lesson11.c:47:51: warning: unused variable 'str3' [-Wunused-variable]
+   47 |         char str1[] = "abcd", str2[] = "1234567", str3[] = "9874342";
+      |                                                   ^~~~
+..\src\lesson11.c:47:31: warning: unused variable 'str2' [-Wunused-variable]
+   47 |         char str1[] = "abcd", str2[] = "1234567", str3[] = "9874342";
+      |                               ^~~~
+gcc -o lesson11.exe "src\\lesson11.o" 
+11:38:30 **** Incremental Build of configuration Debug for project lesson11 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson11.o" "..\\src\\lesson11.c" 
+..\src\lesson11.c: In function 'main':
+..\src\lesson11.c:49:20: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long long unsigned int' [-Wformat=]
+   49 |           printf("%d",sizeof(str3));//bitiş kodunu dahil ederek uzunluk ölçer
+      |                   ~^  ~~~~~~~~~~~~
+      |                    |  |
+      |                    |  long long unsigned int
+      |                    int
+      |                   %lld
+..\src\lesson11.c:47:31: warning: unused variable 'str2' [-Wunused-variable]
+   47 |         char str1[] = "abcd", str2[] = "1234567", str3[] = "9874342";
+      |                               ^~~~
+..\src\lesson11.c:47:14: warning: unused variable 'str1' [-Wunused-variable]
+   47 |         char str1[] = "abcd", str2[] = "1234567", str3[] = "9874342";
+      |              ^~~~
+gcc -o lesson11.exe "src\\lesson11.o" 
+12:45:02 **** Incremental Build of configuration Debug for project lesson11 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson11.o" "..\\src\\lesson11.c" 
+..\src\lesson11.c:84:6: warning: return type of 'main' is not 'int' [-Wmain]
+   84 | void main()
+      |      ^~~~
+..\src\lesson11.c: In function 'main':
+..\src\lesson11.c:88:9: warning: 'return' with a value, in function returning void [-Wreturn-type]
+   88 |  return 0;
+      |         ^
+..\src\lesson11.c:84:6: note: declared here
+   84 | void main()
+      |      ^~~~
+gcc -o lesson11.exe "src\\lesson11.o" 
+12:47:24 **** Incremental Build of configuration Debug for project lesson11 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson11.o" "..\\src\\lesson11.c" 
+..\src\lesson11.c:84:6: warning: return type of 'main' is not 'int' [-Wmain]
+   84 | void main()// \r
+      |      ^~~~
+..\src\lesson11.c: In function 'main':
+..\src\lesson11.c:93:12: warning: 'return' with a value, in function returning void [-Wreturn-type]
+   93 |     return 0;
+      |            ^
+..\src\lesson11.c:84:6: note: declared here
+   84 | void main()// \r
+      |      ^~~~
+..\src\lesson11.c: At top level:
+..\src\lesson11.c:94:2: error: expected identifier or '(' before '--' token
+   94 | }-----------------------------------------------------------------------------*/
+      |  ^~
+12:47:40 **** Incremental Build of configuration Debug for project lesson11 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson11.o" "..\\src\\lesson11.c" 
+..\src\lesson11.c:84:6: warning: return type of 'main' is not 'int' [-Wmain]
+   84 | void main()// \r
+      |      ^~~~
+..\src\lesson11.c: In function 'main':
+..\src\lesson11.c:93:12: warning: 'return' with a value, in function returning void [-Wreturn-type]
+   93 |     return 0;
+      |            ^
+..\src\lesson11.c:84:6: note: declared here
+   84 | void main()// \r
+      |      ^~~~
+gcc -o lesson11.exe "src\\lesson11.o" 
+13:24:19 **** Rebuild of configuration Debug for project lesson12 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson12.o" "..\\src\\lesson12.c" 
+gcc -o lesson12.exe "src\\lesson12.o" 
+Info: Nothing to build for lesson12
+13:24:53 **** Incremental Build of configuration Debug for project lesson12 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson12.o" "..\\src\\lesson12.c" 
+gcc -o lesson12.exe "src\\lesson12.o" 
+Info: Nothing to build for lesson12
+13:25:28 **** Incremental Build of configuration Debug for project lesson12 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson12.o" "..\\src\\lesson12.c" 
+gcc -o lesson12.exe "src\\lesson12.o" 
+13:25:37 **** Incremental Build of configuration Debug for project lesson12 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson12.o" "..\\src\\lesson12.c" 
+..\src\lesson12.c: In function 'main':
+..\src\lesson12.c:6:9: warning: unused variable 'a' [-Wunused-variable]
+    6 |     int a;
+      |         ^
+gcc -o lesson12.exe "src\\lesson12.o" 
+13:26:27 **** Incremental Build of configuration Debug for project lesson12 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson12.o" "..\\src\\lesson12.c" 
+..\src\lesson12.c: In function 'main':
+..\src\lesson12.c:6:9: warning: unused variable 'a' [-Wunused-variable]
+    6 |     int a;
+      |         ^
+gcc -o lesson12.exe "src\\lesson12.o" 
+13:27:17 **** Incremental Build of configuration Debug for project lesson12 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson12.o" "..\\src\\lesson12.c" 
+gcc -o lesson12.exe "src\\lesson12.o" 
+13:27:31 **** Incremental Build of configuration Debug for project lesson12 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson12.o" "..\\src\\lesson12.c" 
+..\src\lesson12.c: In function 'main':
+..\src\lesson12.c:8:5: warning: 'a' is used uninitialized [-Wuninitialized]
+    8 |     char abc[a];
+      |     ^~~~
+..\src\lesson12.c:6:9: note: 'a' was declared here
+    6 |     int a;
+      |         ^
+gcc -o lesson12.exe "src\\lesson12.o" 
+13:29:20 **** Incremental Build of configuration Debug for project lesson12 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson12.o" "..\\src\\lesson12.c" 
+..\src\lesson12.c: In function 'main':
+..\src\lesson12.c:7:10: error: array size missing in 'abc'
+    7 |     char abc[];
+      |          ^~~
+13:29:24 **** Incremental Build of configuration Debug for project lesson12 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson12.o" "..\\src\\lesson12.c" 
+gcc -o lesson12.exe "src\\lesson12.o" 
