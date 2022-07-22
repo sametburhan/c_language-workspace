@@ -136,7 +136,7 @@ typedef struct{
     char c;//string tanımlanamıyor!
 }test;
 
-void klm(test *test3){
+void klm(test* test3){
     int k = test3->a+test3->a*2;//hangi koşullarda kullanılıyor?
     printf("\n%d",k);
 }
@@ -153,6 +153,15 @@ int main(){
     int k = 12;
     test2[0].a = test1.a+k;
     printf("\n%d",test2[0].a);
+
+
+    test test4;
+    klm(&test4);
+
+    test* test5;
+    klm(test5);
+
+
     klm(&test1);//fonksiyon içerisine *'lı veri aktarırken & simgesini kullanıyoruz
     return 0;
 }-----------------------------------------------------
