@@ -1176,3 +1176,577 @@ C:/msys/mingw64/include/stdio.h:703:32: note: expected 'const char *' but argume
    73 |         int a;
       |             ^
 gcc -o lesson12.exe "src\\lesson12.o" 
+08:10:04 **** Rebuild of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+gcc -o lesson13.exe "src\\lesson13.o" 
+Info: Nothing to build for lesson13
+Info: Nothing to build for lesson13
+08:19:22 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+gcc -o lesson13.exe "src\\lesson13.o" 
+08:20:16 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c: In function 'main':
+..\src\lesson13.c:22:18: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   22 |         printf("%f",calculate(a.x,a.y,b.x,b.y));
+      |                 ~^  ~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                  |  |
+      |                  |  int
+      |                  double
+      |                 %d
+gcc -o lesson13.exe "src\\lesson13.o" 
+08:20:38 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c: In function 'main':
+..\src\lesson13.c:22:18: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   22 |         printf("%f",calculate(a.x,a.y,b.x,b.y));
+      |                 ~^  ~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                  |  |
+      |                  |  int
+      |                  double
+      |                 %d
+gcc -o lesson13.exe "src\\lesson13.o" 
+08:20:47 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c: In function 'main':
+..\src\lesson13.c:22:18: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   22 |         printf("%f",calculate(a.x,a.y,b.x,b.y));
+      |                 ~^  ~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                  |  |
+      |                  |  int
+      |                  double
+      |                 %d
+gcc -o lesson13.exe "src\\lesson13.o" 
+Info: Nothing to build for lesson13
+08:20:56 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c: In function 'main':
+..\src\lesson13.c:22:18: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   22 |         printf("%f",calculate(a.x,a.y,b.x,b.y));
+      |                 ~^  ~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                  |  |
+      |                  |  int
+      |                  double
+      |                 %d
+gcc -o lesson13.exe "src\\lesson13.o" 
+08:21:15 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c: In function 'main':
+..\src\lesson13.c:22:18: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   22 |         printf("%f",calculate(a.x,a.y,b.x,b.y));
+      |                 ~^  ~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                  |  |
+      |                  |  int
+      |                  double
+      |                 %d
+gcc -o lesson13.exe "src\\lesson13.o" 
+08:21:24 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+gcc -o lesson13.exe "src\\lesson13.o" 
+Info: Nothing to build for lesson13
+08:23:47 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c: In function 'main':
+..\src\lesson13.c:22:20: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   22 |         printf("%.2f",calculate(a.x,a.y,b.x,b.y));
+      |                 ~~~^  ~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                    |  |
+      |                    |  int
+      |                    double
+      |                 %.2d
+gcc -o lesson13.exe "src\\lesson13.o" 
+08:24:53 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+gcc -o lesson13.exe "src\\lesson13.o" 
+Info: Nothing to build for lesson13
+08:39:37 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c:25:16: error: unknown type name 'array'
+   25 | float distance(array[][]){
+      |                ^~~~~
+..\src\lesson13.c:31:16: error: unknown type name 'array'
+   31 | void calculate(array[][]){
+      |                ^~~~~
+..\src\lesson13.c: In function 'main':
+..\src\lesson13.c:49:9: warning: implicit declaration of function 'calculate' [-Wimplicit-function-declaration]
+   49 |         calculate(array);
+      |         ^~~~~~~~~
+08:40:01 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c:25:22: error: array type has incomplete element type 'float[]'
+   25 | float distance(float array[][]){
+      |                      ^~~~~
+..\src\lesson13.c:25:22: note: declaration of 'array' as multidimensional array must have bounds for all dimensions except the first
+..\src\lesson13.c:31:20: error: array type has incomplete element type 'int[]'
+   31 | void calculate(int array[][]){
+      |                    ^~~~~
+..\src\lesson13.c:31:20: note: declaration of 'array' as multidimensional array must have bounds for all dimensions except the first
+..\src\lesson13.c: In function 'calculate':
+..\src\lesson13.c:36:44: error: called object 'distance' is not a function or function pointer
+   36 |                                 distance = distance();
+      |                                            ^~~~~~~~
+..\src\lesson13.c:32:17: note: declared here
+   32 |         int i,j,distance;
+      |                 ^~~~~~~~
+..\src\lesson13.c: In function 'main':
+..\src\lesson13.c:49:19: error: type of formal parameter 1 is incomplete
+   49 |         calculate(array);
+      |                   ^~~~~
+08:40:23 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c:25:20: error: array type has incomplete element type 'int[]'
+   25 | void calculate(int array[][]){
+      |                    ^~~~~
+..\src\lesson13.c:25:20: note: declaration of 'array' as multidimensional array must have bounds for all dimensions except the first
+..\src\lesson13.c: In function 'calculate':
+..\src\lesson13.c:30:44: error: called object 'distance' is not a function or function pointer
+   30 |                                 distance = distance();
+      |                                            ^~~~~~~~
+..\src\lesson13.c:26:17: note: declared here
+   26 |         int i,j,distance;
+      |                 ^~~~~~~~
+..\src\lesson13.c: At top level:
+..\src\lesson13.c:35:22: error: array type has incomplete element type 'float[]'
+   35 | float distance(float array[][]){
+      |                      ^~~~~
+..\src\lesson13.c:35:22: note: declaration of 'array' as multidimensional array must have bounds for all dimensions except the first
+..\src\lesson13.c: In function 'main':
+..\src\lesson13.c:48:19: error: type of formal parameter 1 is incomplete
+   48 |         calculate(array);
+      |                   ^~~~~
+08:42:17 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c: In function 'calculate':
+..\src\lesson13.c:30:44: error: called object 'distance' is not a function or function pointer
+   30 |                                 distance = distance();
+      |                                            ^~~~~~~~
+..\src\lesson13.c:26:17: note: declared here
+   26 |         int i,j,distance;
+      |                 ^~~~~~~~
+..\src\lesson13.c: At top level:
+..\src\lesson13.c:35:22: error: array type has incomplete element type 'float[]'
+   35 | float distance(float array[][]){
+      |                      ^~~~~
+..\src\lesson13.c:35:22: note: declaration of 'array' as multidimensional array must have bounds for all dimensions except the first
+..\src\lesson13.c: In function 'main':
+..\src\lesson13.c:48:19: warning: passing argument 1 of 'calculate' makes integer from pointer without a cast [-Wint-conversion]
+   48 |         calculate(array);
+      |                   ^~~~~
+      |                   |
+      |                   int (*)[3]
+..\src\lesson13.c:25:20: note: expected 'int' but argument is of type 'int (*)[3]'
+   25 | void calculate(int array){
+      |                ~~~~^~~~~
+08:42:47 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c: In function 'calculate':
+..\src\lesson13.c:27:23: warning: 'sizeof' on array function parameter 'array' will return size of 'int *' [-Wsizeof-array-argument]
+   27 |         int p = sizeof(array);
+      |                       ^
+..\src\lesson13.c:25:20: note: declared here
+   25 | void calculate(int array[]){
+      |                ~~~~^~~~~~~
+..\src\lesson13.c:30:44: error: called object 'distance' is not a function or function pointer
+   30 |                                 distance = distance();
+      |                                            ^~~~~~~~
+..\src\lesson13.c:26:17: note: declared here
+   26 |         int i,j,distance;
+      |                 ^~~~~~~~
+..\src\lesson13.c: At top level:
+..\src\lesson13.c:35:22: error: array type has incomplete element type 'float[]'
+   35 | float distance(float array[][]){
+      |                      ^~~~~
+..\src\lesson13.c:35:22: note: declaration of 'array' as multidimensional array must have bounds for all dimensions except the first
+..\src\lesson13.c: In function 'main':
+..\src\lesson13.c:48:19: warning: passing argument 1 of 'calculate' from incompatible pointer type [-Wincompatible-pointer-types]
+   48 |         calculate(array);
+      |                   ^~~~~
+      |                   |
+      |                   int (*)[3]
+..\src\lesson13.c:25:20: note: expected 'int *' but argument is of type 'int (*)[3]'
+   25 | void calculate(int array[]){
+      |                ~~~~^~~~~~~
+08:42:53 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c:25:20: error: array type has incomplete element type 'int[]'
+   25 | void calculate(int array[][]){
+      |                    ^~~~~
+..\src\lesson13.c:25:20: note: declaration of 'array' as multidimensional array must have bounds for all dimensions except the first
+..\src\lesson13.c: In function 'calculate':
+..\src\lesson13.c:30:44: error: called object 'distance' is not a function or function pointer
+   30 |                                 distance = distance();
+      |                                            ^~~~~~~~
+..\src\lesson13.c:26:17: note: declared here
+   26 |         int i,j,distance;
+      |                 ^~~~~~~~
+..\src\lesson13.c: At top level:
+..\src\lesson13.c:35:22: error: array type has incomplete element type 'float[]'
+   35 | float distance(float array[][]){
+      |                      ^~~~~
+..\src\lesson13.c:35:22: note: declaration of 'array' as multidimensional array must have bounds for all dimensions except the first
+..\src\lesson13.c: In function 'main':
+..\src\lesson13.c:48:19: error: type of formal parameter 1 is incomplete
+   48 |         calculate(array);
+      |                   ^~~~~
+08:51:24 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c:29:20: error: array type has incomplete element type 'int[]'
+   29 | void calculate(int array[][]){
+      |                    ^~~~~
+..\src\lesson13.c:29:20: note: declaration of 'array' as multidimensional array must have bounds for all dimensions except the first
+..\src\lesson13.c: In function 'calculate':
+..\src\lesson13.c:50:31: warning: implicit declaration of function 'sprt'; did you mean 'sqrt'? [-Wimplicit-function-declaration]
+   50 |                 printf("%d\n",sprt(pow(a.x-b.x,2)+pow(a.y-b.y,2)+pow(a.z-b.z,2)));
+      |                               ^~~~
+      |                               sqrt
+..\src\lesson13.c: In function 'main':
+..\src\lesson13.c:61:19: error: type of formal parameter 1 is incomplete
+   61 |         calculate(array);
+      |                   ^~~~~
+08:51:37 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c:29:20: error: array type has incomplete element type 'int[]'
+   29 | void calculate(int array[][]){
+      |                    ^~~~~
+..\src\lesson13.c:29:20: note: declaration of 'array' as multidimensional array must have bounds for all dimensions except the first
+..\src\lesson13.c: In function 'calculate':
+..\src\lesson13.c:50:26: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   50 |                 printf("%d\n",sqrt(pow(a.x-b.x,2)+pow(a.y-b.y,2)+pow(a.z-b.z,2)));
+      |                         ~^    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                          |    |
+      |                          int  double
+      |                         %f
+..\src\lesson13.c: In function 'main':
+..\src\lesson13.c:61:19: error: type of formal parameter 1 is incomplete
+   61 |         calculate(array);
+      |                   ^~~~~
+08:51:52 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c:29:20: error: array type has incomplete element type 'int[]'
+   29 | void calculate(int array[][]){
+      |                    ^~~~~
+..\src\lesson13.c:29:20: note: declaration of 'array' as multidimensional array must have bounds for all dimensions except the first
+..\src\lesson13.c: In function 'main':
+..\src\lesson13.c:61:19: error: type of formal parameter 1 is incomplete
+   61 |         calculate(array);
+      |                   ^~~~~
+08:52:23 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c: In function 'calculate':
+..\src\lesson13.c:36:44: error: subscripted value is neither array nor pointer nor vector
+   36 |                                 a.x = array[i][j];
+      |                                            ^
+..\src\lesson13.c:38:44: error: subscripted value is neither array nor pointer nor vector
+   38 |                                 a.y = array[i][j];
+      |                                            ^
+..\src\lesson13.c:40:44: error: subscripted value is neither array nor pointer nor vector
+   40 |                                 a.z = array[i][j];
+      |                                            ^
+..\src\lesson13.c:42:44: error: subscripted value is neither array nor pointer nor vector
+   42 |                                 b.x = array[i][j];
+      |                                            ^
+..\src\lesson13.c:44:44: error: subscripted value is neither array nor pointer nor vector
+   44 |                                 b.y = array[i][j];
+      |                                            ^
+..\src\lesson13.c:46:44: error: subscripted value is neither array nor pointer nor vector
+   46 |                                 b.z = array[i][j];
+      |                                            ^
+..\src\lesson13.c: In function 'main':
+..\src\lesson13.c:59:19: warning: passing argument 1 of 'calculate' makes integer from pointer without a cast [-Wint-conversion]
+   59 |         calculate(array);
+      |                   ^~~~~
+      |                   |
+      |                   int (*)[3]
+..\src\lesson13.c:29:20: note: expected 'int' but argument is of type 'int (*)[3]'
+   29 | void calculate(int array){
+      |                ~~~~^~~~~
+08:52:35 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c: In function 'calculate':
+..\src\lesson13.c:32:23: warning: 'sizeof' on array function parameter 'array' will return size of 'int *' [-Wsizeof-array-argument]
+   32 |         int p = sizeof(array);
+      |                       ^
+..\src\lesson13.c:29:20: note: declared here
+   29 | void calculate(int array[]){
+      |                ~~~~^~~~~~~
+..\src\lesson13.c:36:47: error: subscripted value is neither array nor pointer nor vector
+   36 |                                 a.x = array[i][j];
+      |                                               ^
+..\src\lesson13.c:38:47: error: subscripted value is neither array nor pointer nor vector
+   38 |                                 a.y = array[i][j];
+      |                                               ^
+..\src\lesson13.c:40:47: error: subscripted value is neither array nor pointer nor vector
+   40 |                                 a.z = array[i][j];
+      |                                               ^
+..\src\lesson13.c:42:47: error: subscripted value is neither array nor pointer nor vector
+   42 |                                 b.x = array[i][j];
+      |                                               ^
+..\src\lesson13.c:44:47: error: subscripted value is neither array nor pointer nor vector
+   44 |                                 b.y = array[i][j];
+      |                                               ^
+..\src\lesson13.c:46:47: error: subscripted value is neither array nor pointer nor vector
+   46 |                                 b.z = array[i][j];
+      |                                               ^
+..\src\lesson13.c: In function 'main':
+..\src\lesson13.c:59:19: warning: passing argument 1 of 'calculate' from incompatible pointer type [-Wincompatible-pointer-types]
+   59 |         calculate(array);
+      |                   ^~~~~
+      |                   |
+      |                   int (*)[3]
+..\src\lesson13.c:29:20: note: expected 'int *' but argument is of type 'int (*)[3]'
+   29 | void calculate(int array[]){
+      |                ~~~~^~~~~~~
+08:52:43 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c:29:20: error: array type has incomplete element type 'int[]'
+   29 | void calculate(int array[][]){
+      |                    ^~~~~
+..\src\lesson13.c:29:20: note: declaration of 'array' as multidimensional array must have bounds for all dimensions except the first
+..\src\lesson13.c: In function 'main':
+..\src\lesson13.c:59:19: error: type of formal parameter 1 is incomplete
+   59 |         calculate(array);
+      |                   ^~~~~
+08:52:58 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c:29:20: error: array type has incomplete element type 'int[]'
+   29 | void calculate(int array[][]){
+      |                    ^~~~~
+..\src\lesson13.c:29:20: note: declaration of 'array' as multidimensional array must have bounds for all dimensions except the first
+..\src\lesson13.c: In function 'main':
+..\src\lesson13.c:59:25: error: expected expression before ']' token
+   59 |         calculate(array[]);
+      |                         ^
+..\src\lesson13.c:59:19: error: type of formal parameter 1 is incomplete
+   59 |         calculate(array[]);
+      |                   ^~~~~~~
+08:53:07 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c:29:20: error: array type has incomplete element type 'int[]'
+   29 | void calculate(int array[][]){
+      |                    ^~~~~
+..\src\lesson13.c:29:20: note: declaration of 'array' as multidimensional array must have bounds for all dimensions except the first
+..\src\lesson13.c: In function 'main':
+..\src\lesson13.c:59:25: error: expected expression before ']' token
+   59 |         calculate(array[][]);
+      |                         ^
+..\src\lesson13.c:59:19: error: type of formal parameter 1 is incomplete
+   59 |         calculate(array[][]);
+      |                   ^~~~~~~~~
+08:54:12 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c: In function 'calculate':
+..\src\lesson13.c:32:23: warning: 'sizeof' on array function parameter 'array' will return size of 'int (*)[3]' [-Wsizeof-array-argument]
+   32 |         int p = sizeof(array);
+      |                       ^
+..\src\lesson13.c:29:20: note: declared here
+   29 | void calculate(int array[2][3]){
+      |                ~~~~^~~~~~~~~~~
+gcc -o lesson13.exe "src\\lesson13.o" 
+08:54:39 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+gcc -o lesson13.exe "src\\lesson13.o" 
+09:03:18 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c:64:28: error: unknown type name 'ay'
+   64 | void area_calculate(int ax,ay,bx,by,cx,cy,dx,dy){
+      |                            ^~
+..\src\lesson13.c:64:31: error: unknown type name 'bx'
+   64 | void area_calculate(int ax,ay,bx,by,cx,cy,dx,dy){
+      |                               ^~
+..\src\lesson13.c:64:34: error: unknown type name 'by'
+   64 | void area_calculate(int ax,ay,bx,by,cx,cy,dx,dy){
+      |                                  ^~
+..\src\lesson13.c:64:37: error: unknown type name 'cx'
+   64 | void area_calculate(int ax,ay,bx,by,cx,cy,dx,dy){
+      |                                     ^~
+..\src\lesson13.c:64:40: error: unknown type name 'cy'
+   64 | void area_calculate(int ax,ay,bx,by,cx,cy,dx,dy){
+      |                                        ^~
+..\src\lesson13.c:64:43: error: unknown type name 'dx'
+   64 | void area_calculate(int ax,ay,bx,by,cx,cy,dx,dy){
+      |                                           ^~
+..\src\lesson13.c:64:46: error: unknown type name 'dy'
+   64 | void area_calculate(int ax,ay,bx,by,cx,cy,dx,dy){
+      |                                              ^~
+..\src\lesson13.c: In function 'main':
+..\src\lesson13.c:69:15: warning: unused variable 'j' [-Wunused-variable]
+   69 |         int i,j;
+      |               ^
+..\src\lesson13.c:69:13: warning: unused variable 'i' [-Wunused-variable]
+   69 |         int i,j;
+      |             ^
+09:03:53 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c: In function 'main':
+..\src\lesson13.c:69:15: warning: unused variable 'j' [-Wunused-variable]
+   69 |         int i,j;
+      |               ^
+..\src\lesson13.c:69:13: warning: unused variable 'i' [-Wunused-variable]
+   69 |         int i,j;
+      |             ^
+gcc -o lesson13.exe "src\\lesson13.o" 
+09:11:42 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c: In function 'area_calculate':
+..\src\lesson13.c:68:20: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   68 |         printf("%.2f",(A+B+C)/2);
+      |                 ~~~^  ~~~~~~~~~
+      |                    |         |
+      |                    double    int
+      |                 %.2d
+gcc -o lesson13.exe "src\\lesson13.o" 
+09:12:47 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+gcc -o lesson13.exe "src\\lesson13.o" 
+09:15:34 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+gcc -o lesson13.exe "src\\lesson13.o" 
+09:16:24 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+gcc -o lesson13.exe "src\\lesson13.o" 
+09:17:26 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+gcc -o lesson13.exe "src\\lesson13.o" 
+09:26:44 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+gcc -o lesson13.exe "src\\lesson13.o" 
+C:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: C:/msys/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/12.1.0/../../../../lib/libmingw32.a(lib64_libmingw32_a-crt0_c.o): in function `main':
+C:/M/mingw-w64-crt-git/src/mingw-w64/mingw-w64-crt/crt/crt0_c.c:18: undefined reference to `WinMain'
+collect2.exe: error: ld returned 1 exit status
+09:27:10 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+gcc -o lesson13.exe "src\\lesson13.o" 
+Info: Nothing to build for lesson13
+Info: Nothing to build for lesson13
+11:24:30 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c: In function 'main':
+..\src\lesson13.c:137:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  137 |                 scanf("%d",makeup.makeup);
+      |                        ~^  ~~~~~~~~~~~~~
+      |                         |        |
+      |                         int *    int
+..\src\lesson13.c:137:17: warning: 'makeup.makeup' may be used uninitialized [-Wmaybe-uninitialized]
+  137 |                 scanf("%d",makeup.makeup);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\lesson13.c:136:23: note: 'makeup' declared here
+  136 |                 grade makeup;
+      |                       ^~~~~~
+..\src\lesson13.c:138:21: warning: 'makeup.makeup' may be used uninitialized [-Wmaybe-uninitialized]
+  138 |                 int mak = makeup.makeup;
+      |                     ^~~
+..\src\lesson13.c:136:23: note: 'makeup' declared here
+  136 |                 grade makeup;
+      |                       ^~~~~~
+gcc -o lesson13.exe "src\\lesson13.o" 
+11:25:49 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c: In function 'main':
+..\src\lesson13.c:136:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  136 |                 scanf("%d",makeup.makeup);
+      |                        ~^  ~~~~~~~~~~~~~
+      |                         |        |
+      |                         int *    int
+..\src\lesson13.c:136:17: warning: 'makeup.makeup' may be used uninitialized [-Wmaybe-uninitialized]
+  136 |                 scanf("%d",makeup.makeup);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\lesson13.c:123:29: note: 'makeup' declared here
+  123 |         grade midterm,final,makeup;
+      |                             ^~~~~~
+..\src\lesson13.c:137:21: warning: 'makeup.makeup' may be used uninitialized [-Wmaybe-uninitialized]
+  137 |                 int mak = makeup.makeup;
+      |                     ^~~
+..\src\lesson13.c:123:29: note: 'makeup' declared here
+  123 |         grade midterm,final,makeup;
+      |                             ^~~~~~
+gcc -o lesson13.exe "src\\lesson13.o" 
+Info: Nothing to build for lesson13
+11:29:08 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c: In function 'main':
+..\src\lesson13.c:136:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  136 |                 scanf("%d",makeup.makeup);
+      |                        ~^  ~~~~~~~~~~~~~
+      |                         |        |
+      |                         int *    int
+..\src\lesson13.c:136:17: warning: 'makeup.makeup' may be used uninitialized [-Wmaybe-uninitialized]
+  136 |                 scanf("%d",makeup.makeup);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\lesson13.c:123:29: note: 'makeup' declared here
+  123 |         grade midterm,final,makeup;
+      |                             ^~~~~~
+..\src\lesson13.c:137:21: warning: 'makeup.makeup' may be used uninitialized [-Wmaybe-uninitialized]
+  137 |                 int mak = makeup.makeup;
+      |                     ^~~
+..\src\lesson13.c:123:29: note: 'makeup' declared here
+  123 |         grade midterm,final,makeup;
+      |                             ^~~~~~
+gcc -o lesson13.exe "src\\lesson13.o" 
+Info: Nothing to build for lesson13
+Info: Nothing to build for lesson13
+11:30:50 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+..\src\lesson13.c: In function 'main':
+..\src\lesson13.c:137:25: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+  137 |                 scanf("%d",makeup.makeup);
+      |                        ~^  ~~~~~~~~~~~~~
+      |                         |        |
+      |                         int *    int
+..\src\lesson13.c:137:17: warning: 'makeup.makeup' may be used uninitialized [-Wmaybe-uninitialized]
+  137 |                 scanf("%d",makeup.makeup);
+      |                 ^~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\lesson13.c:135:23: note: 'makeup' declared here
+  135 |                 grade makeup;
+      |                       ^~~~~~
+..\src\lesson13.c:138:21: warning: 'makeup.makeup' may be used uninitialized [-Wmaybe-uninitialized]
+  138 |                 int mak = makeup.makeup;
+      |                     ^~~
+..\src\lesson13.c:135:23: note: 'makeup' declared here
+  135 |                 grade makeup;
+      |                       ^~~~~~
+gcc -o lesson13.exe "src\\lesson13.o" 
+Info: Nothing to build for lesson13
+11:32:19 **** Incremental Build of configuration Debug for project lesson13 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
+gcc -o lesson13.exe "src\\lesson13.o" 
+Info: Nothing to build for lesson13
