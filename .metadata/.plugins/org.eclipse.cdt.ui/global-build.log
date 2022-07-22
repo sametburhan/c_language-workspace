@@ -2050,3 +2050,249 @@ Info: Nothing to build for lesson13
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\lesson13.o" "..\\src\\lesson13.c" 
 gcc -o lesson13.exe "src\\lesson13.o" 
+16:53:21 **** Rebuild of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.c" 
+gcc -o pointers.exe "src\\pointers.o" 
+16:59:08 **** Incremental Build of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.c" 
+..\src\pointers.c: In function 'main':
+..\src\pointers.c:9:13: error: expected expression before '%' token
+    9 |         a = %b;//a pointer değişkeni b ye indexlendi
+      |             ^
+..\src\pointers.c:13:18: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   13 |         printf("%d",a);
+      |                 ~^  ~
+      |                  |  |
+      |                  |  int *
+      |                  int
+      |                 %n
+..\src\pointers.c:7:13: warning: variable 'b' set but not used [-Wunused-but-set-variable]
+    7 |         int b;//bir normal değişken
+      |             ^
+16:59:31 **** Incremental Build of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.c" 
+..\src\pointers.c: In function 'main':
+..\src\pointers.c:13:18: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   13 |         printf("%d",a);
+      |                 ~^  ~
+      |                  |  |
+      |                  |  int *
+      |                  int
+      |                 %n
+gcc -o pointers.exe "src\\pointers.o" 
+17:00:11 **** Incremental Build of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.c" 
+..\src\pointers.c: In function 'main':
+..\src\pointers.c:12:11: warning: assignment to 'int *' from 'int' makes pointer from integer without a cast [-Wint-conversion]
+   12 |         a = 12;
+      |           ^
+..\src\pointers.c:6:14: warning: variable 'a' set but not used [-Wunused-but-set-variable]
+    6 |         int* a;//bir pointer değişken
+      |              ^
+gcc -o pointers.exe "src\\pointers.o" 
+Info: Nothing to build for pointers
+17:01:02 **** Incremental Build of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.c" 
+gcc -o pointers.exe "src\\pointers.o" 
+17:09:03 **** Incremental Build of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.c" 
+..\src\pointers.c: In function 'main':
+..\src\pointers.c:23:23: warning: assignment to 'int' from 'int *' makes integer from pointer without a cast [-Wint-conversion]
+   23 |               *sum[i] = &x[i];
+      |                       ^
+..\src\pointers.c:25:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   25 |               printf("%d",sum[i]);
+      |                       ~^  ~~~~~~
+      |                        |     |
+      |                        int   int *
+      |                       %n
+..\src\pointers.c:17:14: warning: unused variable 'p' [-Wunused-variable]
+   17 |         int *p = &c;//c nin konumunu referans alan yeni bir pointer değişken
+      |              ^
+gcc -o pointers.exe "src\\pointers.o" 
+17:10:04 **** Incremental Build of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.c" 
+..\src\pointers.c: In function 'main':
+..\src\pointers.c:23:23: warning: assignment to 'int' from 'int *' makes integer from pointer without a cast [-Wint-conversion]
+   23 |               *sum[i] = &x[i];
+      |                       ^
+..\src\pointers.c:25:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   25 |               printf("%d",sum[i]);
+      |                       ~^  ~~~~~~
+      |                        |     |
+      |                        int   int *
+      |                       %n
+..\src\pointers.c:17:14: warning: unused variable 'p' [-Wunused-variable]
+   17 |         int *p = &c;//c nin konumunu referans alan yeni bir pointer değişken
+      |              ^
+gcc -o pointers.exe "src\\pointers.o" 
+17:29:16 **** Incremental Build of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.c" 
+..\src\pointers.c: In function 'main':
+..\src\pointers.c:38:7: warning: assignment to 'int *' from incompatible pointer type 'int (*)[6]' [-Wincompatible-pointer-types]
+   38 |     i = &x;
+      |       ^
+..\src\pointers.c:40:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   40 |     printf("\npointer %d",&x[1]);
+      |                       ~^  ~~~~~
+      |                        |  |
+      |                        |  int *
+      |                        int
+      |                       %n
+..\src\pointers.c:41:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   41 |     printf("\npointer %d",i+1);
+      |                       ~^  ~~~
+      |                        |   |
+      |                        int int *
+      |                       %n
+gcc -o pointers.exe "src\\pointers.o" 
+17:29:52 **** Incremental Build of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.c" 
+..\src\pointers.c: In function 'main':
+..\src\pointers.c:38:7: warning: assignment to 'int *' from incompatible pointer type 'int (*)[6]' [-Wincompatible-pointer-types]
+   38 |     i = &x;
+      |       ^
+..\src\pointers.c:40:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   40 |     printf("\npointer %d",&x[1]);
+      |                       ~^  ~~~~~
+      |                        |  |
+      |                        |  int *
+      |                        int
+      |                       %n
+..\src\pointers.c:41:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   41 |     printf("\npointer %d",i+1);
+      |                       ~^  ~~~
+      |                        |   |
+      |                        int int *
+      |                       %n
+gcc -o pointers.exe "src\\pointers.o" 
+17:29:59 **** Incremental Build of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.c" 
+..\src\pointers.c: In function 'main':
+..\src\pointers.c:38:7: warning: assignment to 'int *' from incompatible pointer type 'int (*)[6]' [-Wincompatible-pointer-types]
+   38 |     i = &x;
+      |       ^
+..\src\pointers.c:40:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   40 |     printf("\npointer %d",&x[1]);
+      |                       ~^  ~~~~~
+      |                        |  |
+      |                        |  int *
+      |                        int
+      |                       %n
+..\src\pointers.c:41:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   41 |     printf("\npointer %d",i+1);
+      |                       ~^  ~~~
+      |                        |   |
+      |                        int int *
+      |                       %n
+gcc -o pointers.exe "src\\pointers.o" 
+17:30:07 **** Incremental Build of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.c" 
+..\src\pointers.c: In function 'main':
+..\src\pointers.c:38:7: warning: assignment to 'int *' from incompatible pointer type 'int (*)[6]' [-Wincompatible-pointer-types]
+   38 |     i = &x;
+      |       ^
+..\src\pointers.c:40:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   40 |     printf("\npointer %d",&x[1]);
+      |                       ~^  ~~~~~
+      |                        |  |
+      |                        |  int *
+      |                        int
+      |                       %n
+..\src\pointers.c:41:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   41 |     printf("\npointer %d",i+1);
+      |                       ~^  ~~~
+      |                        |   |
+      |                        int int *
+      |                       %n
+gcc -o pointers.exe "src\\pointers.o" 
+17:30:25 **** Incremental Build of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.c" 
+..\src\pointers.c: In function 'main':
+..\src\pointers.c:38:7: warning: assignment to 'int *' from incompatible pointer type 'int (*)[6]' [-Wincompatible-pointer-types]
+   38 |     i = &x;
+      |       ^
+..\src\pointers.c:40:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   40 |     printf("\npointer %d",&x[1]);
+      |                       ~^  ~~~~~
+      |                        |  |
+      |                        |  int *
+      |                        int
+      |                       %n
+..\src\pointers.c:41:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   41 |     printf("\npointer %d",i+1);
+      |                       ~^  ~~~
+      |                        |   |
+      |                        int int *
+      |                       %n
+gcc -o pointers.exe "src\\pointers.o" 
+17:32:15 **** Incremental Build of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.c" 
+..\src\pointers.c: In function 'main':
+..\src\pointers.c:38:7: warning: assignment to 'int *' from incompatible pointer type 'int (*)[6]' [-Wincompatible-pointer-types]
+   38 |     i = &x;
+      |       ^
+..\src\pointers.c:43:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   43 |     printf("\npointer %d",&x[1]);
+      |                       ~^  ~~~~~
+      |                        |  |
+      |                        |  int *
+      |                        int
+      |                       %n
+..\src\pointers.c:44:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   44 |     printf("\npointer %d",i+1);
+      |                       ~^  ~~~
+      |                        |   |
+      |                        int int *
+      |                       %n
+gcc -o pointers.exe "src\\pointers.o" 
+17:32:30 **** Incremental Build of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.c" 
+..\src\pointers.c: In function 'main':
+..\src\pointers.c:38:7: warning: assignment to 'int *' from incompatible pointer type 'int (*)[6]' [-Wincompatible-pointer-types]
+   38 |     i = &x;
+      |       ^
+..\src\pointers.c:43:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   43 |     printf("\npointer %d",&x[1]);
+      |                       ~^  ~~~~~
+      |                        |  |
+      |                        |  int *
+      |                        int
+      |                       %n
+..\src\pointers.c:44:24: warning: format '%d' expects argument of type 'int', but argument 2 has type 'int *' [-Wformat=]
+   44 |     printf("\npointer %d",i+1);
+      |                       ~^  ~~~
+      |                        |   |
+      |                        int int *
+      |                       %n
+gcc -o pointers.exe "src\\pointers.o" 
+17:40:04 **** Incremental Build of configuration Debug for project pointers ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\pointers.o" "..\\src\\pointers.c" 
+..\src\pointers.c: In function 'main':
+..\src\pointers.c:53:5: warning: implicit declaration of function 'swap'; did you mean 'swab'? [-Wimplicit-function-declaration]
+   53 |     swap( &num1, &num2);
+      |     ^~~~
+      |     swab
+..\src\pointers.c: At top level:
+..\src\pointers.c:61:6: warning: conflicting types for 'swap'; have 'void(int *, int *)'
+   61 | void swap(int* n1, int* n2)//tanımlanan adressiz değerlere alınan adresli değerlere eşitlenir
+      |      ^~~~
+..\src\pointers.c:53:5: note: previous implicit declaration of 'swap' with type 'void(int *, int *)'
+   53 |     swap( &num1, &num2);
+      |     ^~~~
+gcc -o pointers.exe "src\\pointers.o" 
